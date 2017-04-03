@@ -5,13 +5,13 @@ g = rdflib.Graph()
 g.load("./newtotal.ttl",format="turtle")
 
 NER=['Natural Language Processing','Operating Systems PG','Natural Language Applications','Topics in Information Retrieval']
-
+"""
 courses=set([])
 for row in g.query(
             'select ?x where { ?s a foaf:Course . ?s foo:courseName ?x}'
             ):
         courses = courses.union(set(dic[str(row.x)]))
-
+"""
 students=set([])
 for row in g.query(
             'select ?x where { ?s a foaf:Student . ?s foaf:givenName ?x}'
@@ -45,6 +45,7 @@ def getNer(query):
     m = (faculties)
     f = m.union(students)
     k = f.union(courses)
+    """
     for i in k:
         if i in query:
             if i in courses:
@@ -55,7 +56,7 @@ def getNer(query):
                 a['Student'].append(i.title())
             if i in faculties:
                 a['Faculty'].append(i.title())
-
+    """
     for key in attributes:
         for m in attributes[key]:
             if m.split(":")[1] in query:
