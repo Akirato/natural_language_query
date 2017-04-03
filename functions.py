@@ -69,7 +69,7 @@ def getNer(query):
 if __name__=="__main__":
     nl_query = input("Enter the query: ")
     print("Standardization:")
-    ner = getNer(nltk.word_tokenize(nl_query.lower()))    
+    ner = getNer(nl_query.lower())    
     print(ner)
     functions = []
     for i in ner['attributes']:
