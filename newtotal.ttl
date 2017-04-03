@@ -1350,1246 +1350,1350 @@
 ##########################################################################REGISTRATIONS#########
 
 <mydb.org/reg/248> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/206> ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/206> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/221> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/189> ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/189> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/51> a foaf:Registration ;
-       foo:marks "74.94" ;
-      foo:studentid <mydb.org/stu/49> ;
+       foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/49> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/54> a foaf:Registration ;
-       foo:marks "81.84" ;
-      foo:studentid <mydb.org/stu/52> ;
+       foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/52> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/265> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/222> ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/222> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/128> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/121> ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/121> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/195> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/176> ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/176> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/269> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/224> ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/224> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/240> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/198> ;
+      foo:marks "74" ;
+      	foo:studentid <mydb.org/stu/198> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/126> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/119> ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/119> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/140> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/132> ;
+      foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/132> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/55> a foaf:Registration ;
-       foo:marks "88.28" ;
-      foo:studentid <mydb.org/stu/53> ;
+       foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/53> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/112> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/105> ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/105> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/218> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/188> ;
+      foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/188> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/174> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/163> ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/163> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/78> a foaf:Registration ;
-       foo:marks "50.52" ;
-      foo:studentid <mydb.org/stu/75> ;
+       foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/75> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/89> a foaf:Registration ;
-       foo:studentid <mydb.org/stu/85> ;
+       foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/85> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/161> a foaf:Registration ;
-      foo:marks "76.67" ;
-      foo:studentid <mydb.org/stu/152> ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/152> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/196> a foaf:Registration ;
-      foo:marks "84.93" ;
-      foo:studentid <mydb.org/stu/176> ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/176> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/42> a foaf:Registration ;
-       foo:marks "56.15" ;
-      foo:studentid <mydb.org/stu/40> ;
+       foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/40> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/20> a foaf:Registration ;
-       foo:marks "81.44" ;
-      foo:studentid <mydb.org/stu/20> ;
+       foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/20> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/220> a foaf:Registration ;
-      foo:marks "75" ;
-      foo:studentid <mydb.org/stu/188> ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/188> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/53> a foaf:Registration ;
-       foo:marks "62.76" ;
-      foo:studentid <mydb.org/stu/51> ;
+       foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/51> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/213> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/185> ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/185> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/257> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/215> ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/215> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/261> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/219> ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/219> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/160> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/151> ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/151> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/134> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/126> ;
+      foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/126> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/266> a foaf:Registration ;
-      foo:marks "0" ;
-      foo:studentid <mydb.org/stu/223> ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/223> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/41> a foaf:Registration ;
-       foo:marks "69.77" ;
-      foo:studentid <mydb.org/stu/39> ;
+       foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/39> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/244> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/202> ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/202> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/13> a foaf:Registration ;
-       foo:marks "66.03" ;
-      foo:studentid <mydb.org/stu/13> ;
+       foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/13> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/52> a foaf:Registration ;
-       foo:marks "76.78" ;
-      foo:studentid <mydb.org/stu/50> ;
+       foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/50> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/121> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/114> ;
+      foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/114> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/100> a foaf:Registration ;
-      foo:marks "64.4" ;
-      foo:studentid <mydb.org/stu/93> ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/93> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/194> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/175> ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/175> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/144> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/136> ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/136> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/200> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/178> ;
+      foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/178> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/79> a foaf:Registration ;
-       foo:marks "71.03" ;
-      foo:studentid <mydb.org/stu/76> ;
+       foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/76> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/222> a foaf:Registration ;
-      foo:marks "78.27" ;
-      foo:studentid <mydb.org/stu/189> ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/189> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/50> a foaf:Registration ;
-       foo:marks "11.67" ;
-      foo:studentid <mydb.org/stu/48> ;
+       foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/48> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/148> a foaf:Registration ;
-      foo:marks "0" ;
-      foo:studentid <mydb.org/stu/140> ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/140> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/40> a foaf:Registration ;
-       foo:marks "100" ;
-      foo:studentid <mydb.org/stu/38> ;
+       foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/38> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/205> a foaf:Registration ;
-      foo:marks "96.8" ;
-      foo:studentid <mydb.org/stu/180> ;
+      foo:marks "78" ;
+      	foo:studentid <mydb.org/stu/180> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/113> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/106> ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/106> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/193> a foaf:Registration ;
-      foo:marks "68.8" ;
-      foo:studentid <mydb.org/stu/175> ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/175> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/154> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/146> ;
+      foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/146> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/127> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/120> ;
+      foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/120> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/173> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/162> ;
+      foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/162> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/198> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/177> ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/177> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/247> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/205> ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/205> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/203> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/179> ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/179> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/249> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/207> ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/207> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/263> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/220> ;
+      foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/220> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/235> a foaf:Registration ;
-      foo:marks "79.73" ;
-      foo:studentid <mydb.org/stu/195> ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/195> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/129> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/122> ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/122> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/153> a foaf:Registration ;
-      foo:marks "26.38" ;
-      foo:studentid <mydb.org/stu/145> ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/145> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/219> a foaf:Registration ;
-      foo:marks "77.07" ;
-      foo:studentid <mydb.org/stu/188> ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/188> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/197> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/176> ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/176> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/49> a foaf:Registration ;
-       foo:marks "59.77" ;
-      foo:studentid <mydb.org/stu/47> ;
+       foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/47> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/223> a foaf:Registration ;
-      foo:marks "100" ;
-      foo:studentid <mydb.org/stu/189> ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/189> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/177> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/166> ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/166> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/199> a foaf:Registration ;
-      foo:marks "91.6" ;
-      foo:studentid <mydb.org/stu/177> ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/177> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/217> a foaf:Registration ;
-      foo:marks "55.33" ;
-      foo:studentid <mydb.org/stu/187> ;
+      foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/187> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/114> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/107> ;
+      foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/107> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/32> a foaf:Registration ;
-       foo:marks "72.24" ;
-      foo:studentid <mydb.org/stu/32> ;
+       foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/32> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/47> a foaf:Registration ;
-       foo:marks "78.97" ;
-      foo:studentid <mydb.org/stu/45> ;
+       foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/45> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/260> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/218> ;
+      foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/218> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/184> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/171> ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/171> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/46> a foaf:Registration ;
-       foo:marks "64.54" ;
-      foo:studentid <mydb.org/stu/44> ;
+       foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/44> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/214> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/186> ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/186> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/149> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/141> ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/141> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/45> a foaf:Registration ;
-       foo:marks "82.7" ;
-      foo:studentid <mydb.org/stu/43> ;
+       foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/43> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/33> a foaf:Registration ;
-       foo:marks "76.67" ;
-      foo:studentid <mydb.org/stu/33> ;
+       foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/33> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/34> a foaf:Registration ;
-       foo:marks "64.94" ;
-      foo:studentid <mydb.org/stu/34> ;
+       foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/34> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/206> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/180> ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/180> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/37> a foaf:Registration ;
-       foo:studentid <mydb.org/stu/36> ;
+       foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/36> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/65> a foaf:Registration ;
-       foo:marks "52.99" ;
-      foo:studentid <mydb.org/stu/62> ;
+       foo:marks "74" ;
+      	foo:studentid <mydb.org/stu/62> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/56> a foaf:Registration ;
-       foo:marks "81.84" ;
-      foo:studentid <mydb.org/stu/54> ;
+       foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/54> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/264> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/221> ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/221> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/31> a foaf:Registration ;
-       foo:marks "59.66" ;
-      foo:studentid <mydb.org/stu/31> ;
+       foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/31> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/117> a foaf:Registration ;
-      foo:marks "70.67" ;
-      foo:studentid <mydb.org/stu/110> ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/110> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/216> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/187> ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/187> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/36> a foaf:Registration ;
-       foo:marks "69.47" ;
-      foo:studentid <mydb.org/stu/35> ;
+       foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/35> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/116> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/109> ;
+      foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/109> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/201> a foaf:Registration ;
-      foo:marks "66.4" ;
-      foo:studentid <mydb.org/stu/178> ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/178> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/239> a foaf:Registration ;
-      foo:marks "64.8" ;
-      foo:studentid <mydb.org/stu/197> ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/197> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/166> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/157> ;
+      foo:marks "89" ;
+      	foo:studentid <mydb.org/stu/157> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/35> a foaf:Registration ;
-       foo:marks "80.98" ;
-      foo:studentid <mydb.org/stu/35> ;
+       foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/35> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/30> a foaf:Registration ;
-       foo:marks "58.33" ;
-      foo:studentid <mydb.org/stu/30> ;
+       foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/30> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/245> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/203> ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/203> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/122> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/115> ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/115> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/136> a foaf:Registration ;
-      foo:marks "100" ;
-      foo:studentid <mydb.org/stu/128> ;
+      foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/128> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/66> a foaf:Registration ;
-       foo:marks "56.9" ;
-      foo:studentid <mydb.org/stu/63> ;
+       foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/63> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/57> a foaf:Registration ;
-       foo:marks "79.94" ;
-      foo:studentid <mydb.org/stu/55> ;
+       foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/55> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/164> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/155> ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/155> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/186> a foaf:Registration ;
-      foo:marks "56.13" ;
-      foo:studentid <mydb.org/stu/172> ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/172> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/62> a foaf:Registration ;
-       foo:marks "79.37" ;
-      foo:studentid <mydb.org/stu/60> ;
+       foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/60> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/165> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/156> ;
+      foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/156> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/243> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/201> ;
+      foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/201> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/157> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/149> ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/149> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/142> a foaf:Registration ;
-      foo:marks "100" ;
-      foo:studentid <mydb.org/stu/134> ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/134> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/120> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/113> ;
+      foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/113> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/162> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/153> ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/153> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/135> a foaf:Registration ;
-      foo:marks "71.6" ;
-      foo:studentid <mydb.org/stu/127> ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/127> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/262> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/220> ;
+      foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/220> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/181> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/169> ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/169> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/12> a foaf:Registration ;
-       foo:marks "71.84" ;
-      foo:studentid <mydb.org/stu/12> ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/12> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/241> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/199> ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/199> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/29> a foaf:Registration ;
-       foo:marks "68.85" ;
-      foo:studentid <mydb.org/stu/29> ;
+       foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/29> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/48> a foaf:Registration ;
-       foo:marks "48.62" ;
-      foo:studentid <mydb.org/stu/46> ;
+       foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/46> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/118> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/111> ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/111> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/141> a foaf:Registration ;
-      foo:marks "62.5" ;
-      foo:studentid <mydb.org/stu/133> ;
+      foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/133> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/242> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/200> ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/200> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/15> a foaf:Registration ;
-       foo:marks "81.49" ;
-      foo:studentid <mydb.org/stu/15> ;
+       foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/15> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/183> a foaf:Registration ;
-      foo:marks "74.4" ;
-      foo:studentid <mydb.org/stu/170> ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/170> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/59> a foaf:Registration ;
-       foo:marks "75.86" ;
-      foo:studentid <mydb.org/stu/57> ;
+       foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/57> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/27> a foaf:Registration ;
-       foo:marks "70.86" ;
-      foo:studentid <mydb.org/stu/27> ;
+       foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/27> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/182> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/170> ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/170> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/14> a foaf:Registration ;
-       foo:marks "64.43" ;
-      foo:studentid <mydb.org/stu/14> ;
+       foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/14> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/158> a foaf:Registration ;
-      foo:marks "67.6" ;
-      foo:studentid <mydb.org/stu/149> ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/149> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/58> a foaf:Registration ;
-       foo:marks "76.72" ;
-      foo:studentid <mydb.org/stu/56> ;
+       foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/56> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/28> a foaf:Registration ;
-       foo:marks "71.72" ;
-      foo:studentid <mydb.org/stu/28> ;
+       foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/28> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/187> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/173> ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/173> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/143> a foaf:Registration ;
-      foo:marks "100" ;
-      foo:studentid <mydb.org/stu/135> ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/135> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/185> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/172> ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/172> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/267> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/224> ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/224> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/163> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/154> ;
+      foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/154> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/61> a foaf:Registration ;
-       foo:marks "63.68" ;
-      foo:studentid <mydb.org/stu/59> ;
+       foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/59> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/119> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/112> ;
+      foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/112> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/180> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/168> ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/168> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/10> a foaf:Registration ;
-       foo:marks "66.9" ;
-      foo:studentid <mydb.org/stu/10> ;
+       foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/10> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/259> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/217> ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/217> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/2> a foaf:Registration ;
-        foo:marks "73.05" ;
-      foo:studentid <mydb.org/stu/2> ;
+        foo:marks "100" ;
+      	foo:studentid <mydb.org/stu/2> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/229> a foaf:Registration ;
-      foo:marks "63.6" ;
-      foo:studentid <mydb.org/stu/192> ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/192> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/106> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/99> ;
+      foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/99> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/80> a foaf:Registration ;
-       foo:marks "64.14" ;
-      foo:studentid <mydb.org/stu/77> ;
+       foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/77> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/69> a foaf:Registration ;
-       foo:marks "76.78" ;
-      foo:studentid <mydb.org/stu/66> ;
+       foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/66> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/258> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/216> ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/216> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/250> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/208> ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/208> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/85> a foaf:Registration ;
-       foo:marks "60.11" ;
-      foo:studentid <mydb.org/stu/81> ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/81> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/1> a foaf:Registration ;
-        foo:marks "59.6" ;
-      foo:studentid <mydb.org/stu/1> ;
+        foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/1> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/60> a foaf:Registration ;
-       foo:marks "57.36" ;
-      foo:studentid <mydb.org/stu/58> ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/58> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/255> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/213> ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/213> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/39> a foaf:Registration ;
-       foo:marks "75.63" ;
-      foo:studentid <mydb.org/stu/38> ;
+       foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/38> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/230> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/193> ;
+      foo:marks "74" ;
+      	foo:studentid <mydb.org/stu/193> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/87> a foaf:Registration ;
-       foo:marks "75.17" ;
-      foo:studentid <mydb.org/stu/83> ;
+       foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/83> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/11> a foaf:Registration ;
-       foo:marks "76.32" ;
-      foo:studentid <mydb.org/stu/11> ;
+       foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/11> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/137> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/129> ;
+      foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/129> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/98> a foaf:Registration ;
-       foo:marks "57.24" ;
-      foo:studentid <mydb.org/stu/92> ;
+       foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/92> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/211> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/185> ;
+      foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/185> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/228> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/192> ;
+      foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/192> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/252> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/210> ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/210> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/105> a foaf:Registration ;
-      foo:marks "45.52" ;
-      foo:studentid <mydb.org/stu/98> ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/98> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/156> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/148> ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/148> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/178> a foaf:Registration ;
-      foo:marks "75" ;
-      foo:studentid <mydb.org/stu/166> ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/166> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/150> a foaf:Registration ;
-      foo:marks "71.2" ;
-      foo:studentid <mydb.org/stu/142> ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/142> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/102> a foaf:Registration ;
-      foo:marks "53.73" ;
-      foo:studentid <mydb.org/stu/95> ;
+      foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/95> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/96> a foaf:Registration ;
-       foo:marks "81.2" ;
-      foo:studentid <mydb.org/stu/90> ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/90> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/231> a foaf:Registration ;
-      foo:marks "60.8" ;
-      foo:studentid <mydb.org/stu/193> ;
+      foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/193> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/208> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/182> ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/182> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/146> a foaf:Registration ;
-      foo:marks "100" ;
-      foo:studentid <mydb.org/stu/138> ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/138> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/131> a foaf:Registration ;
-      foo:marks "71.2" ;
-      foo:studentid <mydb.org/stu/123> ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/123> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/107> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/100> ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/100> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/64> a foaf:Registration ;
-       foo:marks "56.9" ;
-      foo:studentid <mydb.org/stu/61> ;
+       foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/61> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/108> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/101> ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/101> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/138> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/130> ;
+      foo:marks "89" ;
+      	foo:studentid <mydb.org/stu/130> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/86> a foaf:Registration ;
-       foo:marks "54.94" ;
-      foo:studentid <mydb.org/stu/82> ;
+       foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/82> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/4> a foaf:Registration ;
-        foo:marks "70.75" ;
-      foo:studentid <mydb.org/stu/4> ;
+        foo:marks "95" ;
+      	foo:studentid <mydb.org/stu/4> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/251> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/209> ;
+      foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/209> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/212> a foaf:Registration ;
-      foo:marks "80" ;
-      foo:studentid <mydb.org/stu/185> ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/185> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/63> a foaf:Registration ;
-       foo:marks "60.13" ;
-      foo:studentid <mydb.org/stu/60> ;
+       foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/60> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/256> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/214> ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/214> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/188> a foaf:Registration ;
-      foo:marks "73.74" ;
-      foo:studentid <mydb.org/stu/173> ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/173> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/99> a foaf:Registration ;
-       foo:studentid <mydb.org/stu/93> ;
+       foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/93> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/237> a foaf:Registration ;
-      foo:marks "78.53" ;
-      foo:studentid <mydb.org/stu/196> ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/196> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/91> a foaf:Registration ;
-       foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/85> ;
+       foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/85> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/83> a foaf:Registration ;
-       foo:marks "69.47" ;
-      foo:studentid <mydb.org/stu/79> ;
+       foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/79> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/90> a foaf:Registration ;
-       foo:marks "91.6" ;
-      foo:studentid <mydb.org/stu/85> ;
+       foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/85> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/179> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/167> ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/167> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/227> a foaf:Registration ;
-      foo:marks "63.2" ;
-      foo:studentid <mydb.org/stu/191> ;
+      foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/191> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/226> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/191> ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/191> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/236> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/196> ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/196> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/104> a foaf:Registration ;
-      foo:marks "41.09" ;
-      foo:studentid <mydb.org/stu/97> ;
+      foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/97> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/3> a foaf:Registration ;
-        foo:marks "68.45" ;
-      foo:studentid <mydb.org/stu/3> ;
+        foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/3> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/238> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/197> ;
+      foo:marks "100" ;
+      	foo:studentid <mydb.org/stu/197> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/5> a foaf:Registration ;
-        foo:marks "88.97" ;
-      foo:studentid <mydb.org/stu/5> ;
+        foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/5> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/110> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/103> ;
+      foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/103> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/84> a foaf:Registration ;
-       foo:marks "64.89" ;
-      foo:studentid <mydb.org/stu/80> ;
+       foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/80> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/147> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/139> ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/139> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/125> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/118> ;
+      foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/118> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/233> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/194> ;
+      foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/194> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/88> a foaf:Registration ;
-       foo:marks "80" ;
-      foo:studentid <mydb.org/stu/84> ;
+       foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/84> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/246> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/204> ;
+      foo:marks "65" ;
+      	foo:studentid <mydb.org/stu/204> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/210> a foaf:Registration ;
-      foo:marks "0" ;
-      foo:studentid <mydb.org/stu/184> ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/184> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/123> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/116> ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/116> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/159> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/150> ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/150> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/115> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/108> ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/108> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/232> a foaf:Registration ;
-      foo:marks "62.5" ;
-      foo:studentid <mydb.org/stu/193> ;
+      foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/193> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/139> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/131> ;
+      foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/131> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/124> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/117> ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/117> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/145> a foaf:Registration ;
-      foo:marks "100" ;
-      foo:studentid <mydb.org/stu/137> ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/137> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/209> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/183> ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/183> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/234> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/195> ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/195> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/111> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/104> ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/104> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/215> a foaf:Registration ;
-      foo:marks "62.53" ;
-      foo:studentid <mydb.org/stu/186> ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/186> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/190> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/174> ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/174> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/204> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/180> ;
+      foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/180> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/73> a foaf:Registration ;
-       foo:marks "63.97" ;
-      foo:studentid <mydb.org/stu/70> ;
+       foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/70> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/76> a foaf:Registration ;
-       foo:marks "45.75" ;
-      foo:studentid <mydb.org/stu/73> ;
+       foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/73> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/7> a foaf:Registration ;
-        foo:marks "72.36" ;
-      foo:studentid <mydb.org/stu/7> ;
+        foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/7> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/93> a foaf:Registration ;
-       foo:marks "5" ;
-      foo:studentid <mydb.org/stu/87> ;
+       foo:marks "100" ;
+      	foo:studentid <mydb.org/stu/87> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/25> a foaf:Registration ;
-       foo:marks "71.84" ;
-      foo:studentid <mydb.org/stu/25> ;
+       foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/25> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/92> a foaf:Registration ;
-       foo:studentid <mydb.org/stu/86> ;
+       foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/86> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/151> a foaf:Registration ;
-      foo:marks "28.62" ;
-      foo:studentid <mydb.org/stu/143> ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/143> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/225> a foaf:Registration ;
-      foo:marks "63.2" ;
-      foo:studentid <mydb.org/stu/190> ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/190> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/152> a foaf:Registration ;
-      foo:marks "27.13" ;
-      foo:studentid <mydb.org/stu/144> ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/144> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/77> a foaf:Registration ;
-       foo:marks "70.92" ;
-      foo:studentid <mydb.org/stu/74> ;
+       foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/74> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/175> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/164> ;
+      foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/164> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/6> a foaf:Registration ;
-        foo:marks "70.34" ;
-      foo:studentid <mydb.org/stu/6> ;
+        foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/6> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/26> a foaf:Registration ;
-       foo:marks "66.26" ;
-      foo:studentid <mydb.org/stu/26> ;
+       foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/26> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/21> a foaf:Registration ;
-       foo:marks "67.01" ;
-      foo:studentid <mydb.org/stu/21> ;
+       foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/21> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/130> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/123> ;
+      foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/123> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/94> a foaf:Registration ;
-       foo:marks "80.53" ;
-      foo:studentid <mydb.org/stu/88> ;
+       foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/88> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/268> a foaf:Registration ;
-      foo:marks "21.5" ;
-      foo:studentid <mydb.org/stu/224> ;
+      foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/224> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/224> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/190> ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/190> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/75> a foaf:Registration ;
-       foo:marks "58.85" ;
-      foo:studentid <mydb.org/stu/72> ;
+       foo:marks "89" ;
+      	foo:studentid <mydb.org/stu/72> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/8> a foaf:Registration ;
-        foo:marks "71.78" ;
-      foo:studentid <mydb.org/stu/8> ;
+        foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/8> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/192> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/175> ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/175> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/170> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/161> ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/161> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/74> a foaf:Registration ;
-       foo:marks "68.22" ;
-      foo:studentid <mydb.org/stu/71> ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/71> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/109> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/102> ;
+      foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/102> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/22> a foaf:Registration ;
-       foo:marks "93.39" ;
-      foo:studentid <mydb.org/stu/22> ;
+       foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/22> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/191> a foaf:Registration ;
-      foo:marks "74.67" ;
-      foo:studentid <mydb.org/stu/174> ;
+      foo:marks "65" ;
+      	foo:studentid <mydb.org/stu/174> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/207> a foaf:Registration ;
-      foo:marks "75" ;
-      foo:studentid <mydb.org/stu/181> ;
+      foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/181> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/95> a foaf:Registration ;
-       foo:marks "87.6" ;
-      foo:studentid <mydb.org/stu/89> ;
+       foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/89> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/18> a foaf:Registration ;
-       foo:marks "74.94" ;
-      foo:studentid <mydb.org/stu/18> ;
+       foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/18> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/19> a foaf:Registration ;
-       foo:marks "81.49" ;
-      foo:studentid <mydb.org/stu/19> ;
+       foo:marks "95" ;
+      	foo:studentid <mydb.org/stu/19> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/67> a foaf:Registration ;
-       foo:marks "54.14" ;
-      foo:studentid <mydb.org/stu/64> ;
+       foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/64> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/171> a foaf:Registration ;
-      foo:marks "75.87" ;
-      foo:studentid <mydb.org/stu/161> ;
+      foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/161> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/16> a foaf:Registration ;
-       foo:marks "84.54" ;
-      foo:studentid <mydb.org/stu/16> ;
+       foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/16> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/82> a foaf:Registration ;
-       foo:marks "69.2" ;
-      foo:studentid <mydb.org/stu/79> ;
+       foo:marks "74" ;
+      	foo:studentid <mydb.org/stu/79> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/70> a foaf:Registration ;
-       foo:marks "77.24" ;
-      foo:studentid <mydb.org/stu/67> ;
+       foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/67> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/81> a foaf:Registration ;
-       foo:marks "69.71" ;
-      foo:studentid <mydb.org/stu/78> ;
+       foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/78> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/169> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/160> ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/160> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/132> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/124> ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/124> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/17> a foaf:Registration ;
-       foo:marks "83.68" ;
-      foo:studentid <mydb.org/stu/17> ;
+       foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/17> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/176> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/165> ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/165> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/24> a foaf:Registration ;
-       foo:marks "77.01" ;
-      foo:studentid <mydb.org/stu/24> ;
+       foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/24> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/68> a foaf:Registration ;
-       foo:marks "63.91" ;
-      foo:studentid <mydb.org/stu/65> ;
+       foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/65> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/103> a foaf:Registration ;
-      foo:marks "61.6" ;
-      foo:studentid <mydb.org/stu/96> ;
+      foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/96> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/23> a foaf:Registration ;
-       foo:marks "78.28" ;
-      foo:studentid <mydb.org/stu/23> ;
+       foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/23> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/167> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/158> ;
+      foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/158> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/189> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/173> ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/173> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/43> a foaf:Registration ;
-       foo:marks "68.68" ;
-      foo:studentid <mydb.org/stu/41> ;
+       foo:marks "100" ;
+      	foo:studentid <mydb.org/stu/41> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/253> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/211> ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/211> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/172> a foaf:Registration ;
-      foo:marks "87.5" ;
-      foo:studentid <mydb.org/stu/161> ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/161> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/254> a foaf:Registration ;
-      foo:marks "100" ;
-      foo:studentid <mydb.org/stu/212> ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/212> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/168> a foaf:Registration ;
-      foo:studentid <mydb.org/stu/159> ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/159> ;
       foo:courseid <mydb.org/cou/1> .
 
 <mydb.org/reg/97> a foaf:Registration ;
-       foo:marks "85.6" ;
-      foo:studentid <mydb.org/stu/91> ;
+       foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/91> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/101> a foaf:Registration ;
-      foo:marks "71.47" ;
-      foo:studentid <mydb.org/stu/94> ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/94> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/202> a foaf:Registration ;
-      foo:marks "100" ;
-      foo:studentid <mydb.org/stu/178> ;
+      foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/178> ;
       foo:courseid <mydb.org/cou/4> .
 
 <mydb.org/reg/155> a foaf:Registration ;
-      foo:marks "78.8" ;
-      foo:studentid <mydb.org/stu/147> ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/147> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/71> a foaf:Registration ;
-       foo:marks "72.99" ;
-      foo:studentid <mydb.org/stu/68> ;
+       foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/68> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/38> a foaf:Registration ;
-       foo:marks "57.82" ;
-      foo:studentid <mydb.org/stu/37> ;
+       foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/37> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/133> a foaf:Registration ;
-      foo:marks "64.13" ;
-      foo:studentid <mydb.org/stu/125> ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/125> ;
       foo:courseid <mydb.org/cou/3> .
 
 <mydb.org/reg/44> a foaf:Registration ;
-       foo:marks "72.64" ;
-      foo:studentid <mydb.org/stu/42> ;
+       foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/42> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/9> a foaf:Registration ;
-        foo:marks "76.15" ;
-      foo:studentid <mydb.org/stu/9> ;
+        foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/9> ;
       foo:courseid <mydb.org/cou/2> .
 
 <mydb.org/reg/72> a foaf:Registration ;
-       foo:marks "68.74" ;
-      foo:studentid <mydb.org/stu/69> ;
+       foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/69> ;
       foo:courseid <mydb.org/cou/2> .
+
 
 
 
