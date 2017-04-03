@@ -4,7 +4,6 @@ import rdflib
 g = rdflib.Graph()
 g.load("./newtotal.ttl",format="turtle")
 
-NER=['Natural Language Processing','Operating Systems PG','Natural Language Applications','Topics in Information Retrieval']
 
 courses=set([])
 for row in g.query(
@@ -69,30 +68,66 @@ def getNer(query):
 
 if __name__=="__main__":
     nl_query = input("Enter the query: ")
-    ner = getNer(nl_query)    
-    functions = []
+    print("Standardization:")
+    ner = getNer(nltk.word_tokenize(nl_query.lower()))    
     print(ner)
+    functions = []
     for i in ner['attributes']:
         if ':' in i:
             for key in attributes:
                 if i in attributes[key]:
                     functions = attributes[key][:]
 
-    for student in ner['Student']:
-        for course in ner['Course']:
-            rdfquery=''
-            rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
-            rdfquery=rdfquery + getID(course,"foo:courseName",var[1])
-            rdfquery=rdfquery + allEntities("Registration",var[2])
-            rdfquery=rdfquery + cond(var[2],"foo:courseid",var[1])
-            rdfquery=rdfquery + cond(var[2],"foo:studentid",var[0])
-            rdfquery=rdfquery + idtosolution(var[2],ner["attributes"][0],sol)
-            finalquery='select ?x where { ' + rdfquery + " }"
-            print("Query: ", student,' in the course ',course)
-            rows = g.query(finalquery)
-            if len(rows)<=0:
-                print('Marks not Available')
 
-            for row in rows:
-                print(row.x)
 
+
+    #tokens = nltk.pos_tag(nltk.word_tokenize(nl_query.lower()))
+
+
+#marks of Students in Courses
+for student in ner['Student']:
+    for course in ner['Course']:
+        rdfquery=''
+        rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
+        rdfquery=rdfquery + getID(course,"foo:courseName",var[1])
+        rdfquery=rdfquery + allEntities("Registration",var[2])
+        rdfquery=rdfquery + cond(var[2],"foo:courseid",var[1])
+        rdfquery=rdfquery + cond(var[2],"foo:studentid",var[0])
+        rdfquery=rdfquery + idtosolution(var[2],ner["attributes"][0],sol)
+
+
+        finalquery='select ?x where { ' + rdfquery + " }"
+        print("Query: ", student,' in the course ',course)
+        rows = g.query(finalquery)
+        if len(rows)<=0:
+            print('Marks not Available')
+
+        for row in rows:
+            print(row.x)
+
+
+#All courses of Student
+"""
+for student in ner['Student']:
+    rdfquery=''
+    rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
+    rdfquery=rdfquery + allEntities("Course",var[1])
+    rdfquery=rdfquery + allEntities("Registration",var[2])
+    rdfquery=rdfquery + cond(var[2],"foo:courseid",var[1])
+    rdfquery=rdfquery + cond(var[2],"foo:studentid",var[0])
+    rdfquery=rdfquery + idtosolution(var[1],"foo:courseName",sol)
+
+
+    finalquery='select ?x where { ' + rdfquery + " }"
+    for row in g.query(finalquery):
+        print(row.x)
+"""
+
+# Faculty of Course
+
+#
+#
+#
+#
+
+#
