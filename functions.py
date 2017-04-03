@@ -1,5 +1,5 @@
 from standardized import *
-import nltk
+import nltk.word_tokenize
 import rdflib
 g = rdflib.Graph()
 g.load("./newtotal.ttl",format="turtle")
