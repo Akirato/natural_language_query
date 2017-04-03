@@ -85,6 +85,7 @@ if __name__=="__main__":
 
 
 #marks of Students in Courses
+"""
 for student in ner['Student']:
     for course in ner['Course']:
         rdfquery=''
@@ -105,7 +106,7 @@ for student in ner['Student']:
         for row in rows:
             print(row.x)
 
-
+""""
 #All courses of Student
 """
 for student in ner['Student']:
