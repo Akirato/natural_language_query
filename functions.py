@@ -1,5 +1,5 @@
 from standardized import *
-import nltk.word_tokenize
+from nltk import word_tokenize
 import rdflib
 g = rdflib.Graph()
 g.load("./newtotal.ttl",format="turtle")
@@ -40,7 +40,7 @@ def idtosolution(variable1,soltype,variable2):
     return "?" + variable1 + " " + soltype + " ?" + variable2 + " . "
 
 def getNer(query):
-    query = nltk.word_tokenize(query.lower())
+    query = word_tokenize(query.lower())
     a = {'Student':[],'Faculty':[],'Course':[],'attributes':[]}
     m = (faculties)
     f = m.union(students)
