@@ -85,7 +85,6 @@ if __name__=="__main__":
 
 
 #marks of Students in Courses
-"""
 for student in ner['Student']:
     for course in ner['Course']:
         rdfquery=''
@@ -106,9 +105,9 @@ for student in ner['Student']:
         for row in rows:
             print(row.x)
 
-"""
+
 #All courses of Student
-"""
+
 for student in ner['Student']:
     rdfquery=''
     rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
@@ -122,13 +121,26 @@ for student in ner['Student']:
     finalquery='select ?x where { ' + rdfquery + " }"
     for row in g.query(finalquery):
         print(row.x)
-"""
 
-# Faculty of Course
+
+# Faculty of Course 
+for course in ner['Course']:
+    rdfquery=''
+    rdfquery=rdfquery+getID(course,"foo:courseName",var[0])
+    rdfquery=rdfquery+idtosolution(var[0],"foo:faculty",var[1])
+    rdfquery=rdfquery+allEntities("Faculty",var[1])
+    rdfquery=rdfquery+idtosolution(var[1],"foaf:givenName",sol)
+    rdfquery=rdfquery+idtosolution(var[1],"foaf:familyName",'y')
+    finalquery='select ?x ?y where { ' + rdfquery + " }"
+
+    for row in g.query(finalquery):
+        print("Faculty of " + course+" is " +row.x+" "+row.y)
+
 
 #
 #
 #
 #
+
 
 #
