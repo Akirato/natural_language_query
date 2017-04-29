@@ -64,7 +64,21 @@ def getNer(query):
             if m.split(":")[1] in query:
                 a['attributes'].append(m)
     return a
-
+def getFaculty(ner):       #Faculty of Course
+    for course in ner['Course']:
+        rdfquery=''
+        rdfquery=rdfquery+getID(course,"foo:courseName",var[0])
+        rdfquery=rdfquery+idtosolution(var[0],"foo:faculty",var[1])
+        rdfquery=rdfquery+allEntities("Faculty",var[1])
+        rdfquery=rdfquery+idtosolution(var[1],"foaf:givenName",sol)
+        rdfquery=rdfquery+idtosolution(var[1],"foaf:familyName",'y')
+        finalquery='select ?x ?y where { ' + rdfquery + " }"
+        st="Faculty of "+ course+ ": "
+        a=[]
+        for row in g.query(finalquery):
+            a.append(row.x+" "+row.y)
+        a=",".join(a)
+        return st+a
 
 if __name__=="__main__":
     nl_query = input("Enter the query: ")
@@ -77,15 +91,16 @@ if __name__=="__main__":
             for key in attributes:
                 if i in attributes[key]:
                     functions = attributes[key][:]
-
-
-
+    """
+    #Get Faculty of course
+    faculty=getFaculty(ner)
+    print(faculty)
+    """
 
     #tokens = nltk.pos_tag(nltk.word_tokenize(nl_query.lower()))
 
-
-#marks of Students in Courses
 """
+#marks of Students in Courses
 for student in ner['Student']:
     for course in ner['Course']:
         rdfquery=''
@@ -106,9 +121,9 @@ for student in ner['Student']:
         for row in rows:
             print(row.x)
 
-"""
+
 #All courses of Student
-"""
+
 for student in ner['Student']:
     rdfquery=''
     rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
@@ -124,11 +139,11 @@ for student in ner['Student']:
         print(row.x)
 """
 
-# Faculty of Course
 
 #
 #
 #
 #
+
 
 #
