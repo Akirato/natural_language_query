@@ -2,7 +2,7 @@ from standardized import *
 import nltk
 import rdflib
 g = rdflib.Graph()
-g.load("./newtotal.ttl",format="turtle")
+g.load("E:/PGSSP/NLA/Srikanth-2017/rdf/natural_language_query/data/newtotal.ttl",format="turtle")
 
 
 courses=set([])
@@ -46,6 +46,7 @@ def getNer(query):
         query = nltk.word_tokenize(query.lower())
     a = {'Student':[],'Faculty':[],'Course':[],'attributes':[]}
     m = (faculties)
+    a['Faculty'].append(m)
     f = m.union(students)
     k = f.union(courses)
     for i in k:
@@ -85,7 +86,7 @@ if __name__=="__main__":
 
 
 #marks of Students in Courses
-"""
+
 for student in ner['Student']:
     for course in ner['Course']:
         rdfquery=''
@@ -106,9 +107,9 @@ for student in ner['Student']:
         for row in rows:
             print(row.x)
 
-"""
+
 #All courses of Student
-"""
+
 for student in ner['Student']:
     rdfquery=''
     rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
@@ -122,13 +123,28 @@ for student in ner['Student']:
     finalquery='select ?x where { ' + rdfquery + " }"
     for row in g.query(finalquery):
         print(row.x)
-"""
 
-# Faculty of Course
+# To get the Course Name
 
-#
-#
-#
-#
+for course in ner['Course']:
+    rdfquery = ''
+    rdfquery = rdfquery + getID(course, "foo:courseName", var[1])
+    rdfquery = rdfquery + cond(var[2], "foo:courseid", var[1])
 
-#
+    finalquery = 'select ?x where { ' + rdfquery + " }"
+    for row in g.query(finalquery):
+        print(row.x)
+		
+#to get the Faculty name of the course
+for course in ner['Course']:
+    for faculty in ner['Faculty']:
+        rdfquery = ''
+
+        rdfquery = rdfquery + getID(course, "foo:courseName", var[1])
+        rdfquery = rdfquery + getID(faculty, "foo:facultyName", var[0])
+        rdfquery = rdfquery + cond(var[2], "foo:courseid", var[1])
+        rdfquery = rdfquery + cond(var[2],"foo:facultyid",var[0])
+
+        finalquery = 'select ?x where { ' + rdfquery + " }"
+        for row in g.query(finalquery):
+            print("faculty", row.x)

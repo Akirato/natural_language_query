@@ -1,0 +1,2729 @@
+# Base: http://mybase
+@prefix foo:     <http://www.foo.org/> .
+@prefix rdf123:  <http://rdf123.umbc.edu/ns/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix :        <#> .
+
+################################STUDENTS################################################################################
+<mydb.org/stu/221> a foaf:Student ;
+      rdf:rollno "201522662" ;
+      foo:email "kishori.pawar@research.iiit.ac.in" ;
+      foaf:familyName "Pawar" ;
+      foaf:givenName "Kishori" .
+
+<mydb.org/stu/51> a foaf:Student ;
+       rdf:rollno "20162075" ;
+      foo:email "chetan.chhabra@students.iiit.ac.in" ;
+      foaf:familyName "Chhabra" ;
+      foaf:givenName "Chetan" .
+
+<mydb.org/stu/54> a foaf:Student ;
+       rdf:rollno "20162080" ;
+      foo:email "kanishtha.surana@students.iiit.ac.in" ;
+      foaf:familyName "surana" ;
+      foaf:givenName "kanishtha" .
+
+<mydb.org/stu/128> a foaf:Student ;
+      rdf:rollno "201302195" ;
+      foo:email "nisarg.jhaveri@research.iiit.ac.in" ;
+      foaf:familyName "Jhaveri" ;
+      foaf:givenName "Nisarg" .
+
+<mydb.org/stu/195> a foaf:Student ;
+      rdf:rollno "201456111" ;
+      foo:email "v.srirangam@research.iiit.ac.in" ;
+      foaf:familyName "srirangam" ;
+      foaf:givenName "vamshi krishna" .
+
+<mydb.org/stu/126> a foaf:Student ;
+      rdf:rollno "201302177" ;
+      foo:email "chowduru.ramachandra@research.iiit.ac.in" ;
+      foaf:familyName "Chowduru" ;
+      foaf:givenName "Ramachandra Sharma" .
+
+<mydb.org/stu/140> a foaf:Student ;
+      rdf:rollno "201330036" ;
+      foo:email "ashish.j@students.iiit.ac.in" ;
+      foaf:familyName "Jain" ;
+      foaf:givenName "Ashish" .
+
+<mydb.org/stu/55> a foaf:Student ;
+       rdf:rollno "20162082" ;
+      foo:email "riddhi.patel@students.iiit.ac.in" ;
+      foaf:familyName "patel" ;
+      foaf:givenName "riddhi" .
+
+<mydb.org/stu/218> a foaf:Student ;
+      rdf:rollno "201507519" ;
+      foo:email "abhishek.singh@research.iiit.ac.in" ;
+      foaf:familyName "Singh" ;
+      foaf:givenName "Abhishek" .
+
+<mydb.org/stu/112> a foaf:Student ;
+      rdf:rollno "201301173" ;
+      foo:email "tanmay.sahay@students.iiit.ac.in" ;
+      foaf:familyName "Sahay" ;
+      foaf:givenName "Tanmay" .
+
+<mydb.org/stu/89> a foaf:Student ;
+       rdf:rollno "20163026" ;
+      foo:email "anilkumar.neeli@students.iiit.ac.in" ;
+      foaf:familyName "f" ;
+      foaf:givenName "Anil Kumar" .
+
+<mydb.org/stu/78> a foaf:Student ;
+       rdf:rollno "20162118" ;
+      foo:email "anupam.pandey@students.iiit.ac.in" ;
+      foaf:familyName "Pandey" ;
+      foaf:givenName "Anupam" .
+
+<mydb.org/stu/174> a foaf:Student ;
+      rdf:rollno "201402035" ;
+      foo:email "vinay.singh@research.iiit.ac.in" ;
+      foaf:familyName "Singh" ;
+      foaf:givenName "Vinay" .
+
+<mydb.org/stu/161> a foaf:Student ;
+      rdf:rollno "201401124" ;
+      foo:email "allen.antony@students.iiit.ac.in" ;
+      foaf:familyName "Antony" ;
+      foaf:givenName "Allen" .
+
+<mydb.org/stu/196> a foaf:Student ;
+      rdf:rollno "201456190" ;
+      foo:email "shantanu.prabhat@research.iiit.ac.in" ;
+      foaf:familyName "Prabhat" ;
+      foaf:givenName "Shantanu" .
+
+<mydb.org/stu/42> a foaf:Student ;
+       rdf:rollno "20162060" ;
+      foo:email "shreya.singh@students.iiit.ac.in" ;
+      foaf:familyName "Singh" ;
+      foaf:givenName "Shreya" .
+
+<mydb.org/stu/20> a foaf:Student ;
+       rdf:rollno "20162028" ;
+      foo:email "ravi.prakash@students.iiit.ac.in" ;
+      foaf:familyName "Prakash" ;
+      foaf:givenName "Ravi" .
+
+<mydb.org/stu/220> a foaf:Student ;
+      rdf:rollno "201507647" ;
+      foo:email "saumitra.yadav@research.iiit.ac.in" ;
+      foaf:familyName "Yadav" ;
+      foaf:givenName "Saumitra" .
+
+<mydb.org/stu/53> a foaf:Student ;
+       rdf:rollno "20162078" ;
+      foo:email "hemant.verma@students.iiit.ac.in" ;
+      foaf:familyName "Verma" ;
+      foaf:givenName "Hemant" .
+
+<mydb.org/stu/213> a foaf:Student ;
+      rdf:rollno "201505587" ;
+      foo:email "borle.ganesh@students.iiit.ac.in" ;
+      foaf:familyName "Borle" ;
+      foaf:givenName "Ganesh" .
+
+<mydb.org/stu/160> a foaf:Student ;
+      rdf:rollno "201401118" ;
+      foo:email "ankur.jain@students.iiit.ac.in" ;
+      foaf:familyName "Jain" ;
+      foaf:givenName "Ankur" .
+
+<mydb.org/stu/134> a foaf:Student ;
+      rdf:rollno "201325054" ;
+      foo:email "rajat.singh@research.iiit.ac.in" ;
+      foaf:familyName "Singh" ;
+      foaf:givenName "Rajat" .
+
+<mydb.org/stu/41> a foaf:Student ;
+       rdf:rollno "20162059" ;
+      foo:email "aditi.gangrade@students.iiit.ac.in" ;
+      foaf:familyName "Gangrade" ;
+      foaf:givenName "Aditi" .
+
+<mydb.org/stu/13> a foaf:Student ;
+       rdf:rollno "20162020" ;
+      foo:email "saniya.sharma@students.iiit.ac.in" ;
+      foaf:familyName "Sharma" ;
+      foaf:givenName "Saniya" .
+
+<mydb.org/stu/52> a foaf:Student ;
+       rdf:rollno "20162076" ;
+      foo:email "dhawni.khurana@students.iiit.ac.in" ;
+      foaf:familyName "Khurana" ;
+      foaf:givenName "Dhawnit" .
+
+<mydb.org/stu/121> a foaf:Student ;
+      rdf:rollno "201302035" ;
+      foo:email "anveshi.shukla@research.iiit.ac.in" ;
+      foaf:familyName "Shukla" ;
+      foaf:givenName "Anveshi" .
+
+<mydb.org/stu/100> a foaf:Student ;
+      rdf:rollno "201301021" ;
+      foo:email "akshat.jain@students.iiit.ac.in" ;
+      foaf:familyName "Jain" ;
+      foaf:givenName "Akshat" .
+
+<mydb.org/stu/144> a foaf:Student ;
+      rdf:rollno "201350894" ;
+      foo:email "kanthi.rekha@students.iiit.ac.in" ;
+      foaf:familyName "Wurity" ;
+      foaf:givenName "Kanthi Rekha" .
+
+<mydb.org/stu/194> a foaf:Student ;
+      rdf:rollno "201450879" ;
+      foo:email "madhavi.krishna@students.iiit.ac.in" ;
+      foaf:familyName "Kolla" ;
+      foaf:givenName "Krishna Madhavi" .
+
+<mydb.org/stu/200> a foaf:Student ;
+      rdf:rollno "201505512" ;
+      foo:email "ayush.k@students.iiit.ac.in" ;
+      foaf:familyName "Khandelwal" ;
+      foaf:givenName "Ayush" .
+
+<mydb.org/stu/79> a foaf:Student ;
+       rdf:rollno "20162119" ;
+      foo:institute "IIITH" ;
+      foo:email "syed.ahmad@students.iiit.ac.in" ;
+      foaf:familyName "Syed" ;
+      foaf:givenName "Muzammil Ahmad" .
+
+<mydb.org/stu/222> a foaf:Student ;
+      rdf:rollno "201522663" ;
+      foo:email "anand.sastry@research.iiit.ac.in" ;
+      foaf:familyName "BV" ;
+      foaf:givenName "Anand" .
+
+<mydb.org/stu/50> a foaf:Student ;
+       rdf:rollno "20162074" ;
+      foo:email "siddhartha.j@students.iiit.ac.in" ;
+      foaf:familyName "JAIN" ;
+      foaf:givenName "SIDDHARTHA" .
+
+<mydb.org/stu/148> a foaf:Student ;
+      rdf:rollno "201364092" ;
+      foo:email "gorang.maniar@research.iiit.ac.in" ;
+      foaf:familyName "Maniar" ;
+      foaf:givenName "Gorang" .
+
+<mydb.org/stu/40> a foaf:Student ;
+       rdf:rollno "20162057" ;
+      foo:email "manish.nalla@students.iiit.ac.in" ;
+      foaf:familyName "Nalla" ;
+      foaf:givenName "Manish" .
+
+<mydb.org/stu/205> a foaf:Student ;
+      rdf:rollno "201505555" ;
+      foo:email "sunil.kandari@students.iiit.ac.in" ;
+      foaf:familyName "Kandari" ;
+      foaf:givenName "Sunil" .
+
+<mydb.org/stu/113> a foaf:Student ;
+      rdf:rollno "201301180" ;
+      foo:email "prameela.kavya@students.iiit.ac.in" ;
+      foaf:familyName "thummuru" ;
+      foaf:givenName "prameela kavya" .
+
+<mydb.org/stu/193> a foaf:Student ;
+      rdf:rollno "201425221" ;
+      foo:email "anirudh.dahiya@research.iiit.ac.in" ;
+      foaf:familyName "Dahiya" ;
+      foaf:givenName "Anirudh" .
+
+<mydb.org/stu/154> a foaf:Student ;
+      rdf:rollno "201401025" ;
+      foo:email "manipal.singh@students.iiit.ac.in" ;
+      foaf:familyName "Singh" ;
+      foaf:givenName "Manipal" .
+
+<mydb.org/stu/127> a foaf:Student ;
+      rdf:rollno "201302179" ;
+      foo:email "anurag.ghosh@research.iiit.ac.in" ;
+      foaf:familyName "Ghosh" ;
+      foaf:givenName "Anurag" .
+
+<mydb.org/stu/173> a foaf:Student ;
+      rdf:rollno "201402029" ;
+      foo:email "battu.varshit@research.iiit.ac.in" ;
+      foaf:familyName "Varshit" ;
+      foaf:givenName "Battu" .
+
+<mydb.org/stu/198> a foaf:Student ;
+      rdf:rollno "201505504" ;
+      foo:email "vivek.vishnoi@students.iiit.ac.in" ;
+      foaf:familyName "vishnoi" ;
+      foaf:givenName "vivek" .
+
+<mydb.org/stu/203> a foaf:Student ;
+      rdf:rollno "201505547" ;
+      foo:email "shivam.khare@students.iiit.ac.in" ;
+      foaf:familyName "khare" ;
+      foaf:givenName "shivam" .
+
+<mydb.org/stu/129> a foaf:Student ;
+      rdf:rollno "201302200" ;
+      foo:email "nirmala.gangumalla@research.iiit.ac.in" ;
+      foaf:familyName "gangumalla" ;
+      foaf:givenName "lakshmi" .
+
+<mydb.org/stu/153> a foaf:Student ;
+      rdf:rollno "201401024" ;
+      foo:email "saatwik.singhnagpal@students.iiit.ac.in" ;
+      foaf:familyName "Singh Nagpal" ;
+      foaf:givenName "Saatwik" .
+
+<mydb.org/stu/219> a foaf:Student ;
+      rdf:rollno "201507574" ;
+      foo:email "shashank.gupta@research.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Shashank" .
+
+<mydb.org/stu/197> a foaf:Student ;
+      rdf:rollno "201456243" ;
+      foo:email "sneha.nanavati@research.iiit.ac.in" ;
+      foaf:familyName "Nanavati" ;
+      foaf:givenName "Sneha" .
+
+<mydb.org/stu/223> a foaf:Student ;
+      rdf:rollno "201550845" ;
+      foo:email "uttam.shrivastava@students.iiit.ac.in" ;
+      foaf:familyName "shrivastava" ;
+      foaf:givenName "uttam" .
+
+<mydb.org/stu/49> a foaf:Student ;
+       rdf:rollno "20162073" ;
+      foo:email "jayantkumar.tanwani@students.iiit.ac.in" ;
+      foaf:familyName "Tanwani" ;
+      foaf:givenName "Jayant Kumar" .
+
+<mydb.org/stu/177> a foaf:Student ;
+      rdf:rollno "201402087" ;
+      foo:email "dhruv.khattar@research.iiit.ac.in" ;
+      foaf:familyName "Khattar" ;
+      foaf:givenName "Dhruv" .
+
+<mydb.org/stu/199> a foaf:Student ;
+      rdf:rollno "201505506" ;
+      foo:email "sonam.gupta@students.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Sonam" .
+
+<mydb.org/stu/217> a foaf:Student ;
+      rdf:rollno "201505627" ;
+      foo:email "deeksha.singh@students.iiit.ac.in" ;
+      foaf:familyName "Thakur" ;
+      foaf:givenName "Deeksha Singh" .
+
+<mydb.org/stu/114> a foaf:Student ;
+      rdf:rollno "201301208" ;
+      foo:email "nukireddy.jahnavi@students.iiit.ac.in" ;
+      foaf:familyName "Nukireddy" ;
+      foaf:givenName "Jahnavi" .
+
+<mydb.org/stu/32> a foaf:Student ;
+       rdf:rollno "20162045" ;
+      foo:email "ujjainwala.m@students.iiit.ac.in" ;
+      foaf:familyName "Ujjainwala" ;
+      foaf:givenName "Mohammed" .
+
+<mydb.org/stu/47> a foaf:Student ;
+       rdf:rollno "20162070" ;
+      foo:email "vikas.raghuwanshi@students.iiit.ac.in" ;
+      foaf:familyName "Raghuwanshi" ;
+      foaf:givenName "vikas" .
+
+<mydb.org/stu/184> a foaf:Student ;
+      rdf:rollno "201405596" ;
+      foo:email "rajat.jain@students.iiit.ac.in" ;
+      foaf:familyName "Jain" ;
+      foaf:givenName "Rajat" .
+
+<mydb.org/stu/46> a foaf:Student ;
+       rdf:rollno "20162068" ;
+      foo:email "sunny.ahlawat@students.iiit.ac.in" ;
+      foaf:familyName "Ahlawat" ;
+      foaf:givenName "Sunny" .
+
+<mydb.org/stu/214> a foaf:Student ;
+      rdf:rollno "201505604" ;
+      foo:email "satyam.verma@students.iiit.ac.in" ;
+      foaf:familyName "verma" ;
+      foaf:givenName "satyam" .
+
+<mydb.org/stu/149> a foaf:Student ;
+      rdf:rollno "201364127" ;
+      foo:department "CCNSB" ;
+      foo:institute "IIIT Hyderabad" ;
+      foo:email "sagar.gaur@research.iiit.ac.in" ;
+      foaf:familyName "Gaur" ;
+      foaf:givenName "Sagar" .
+
+<mydb.org/stu/45> a foaf:Student ;
+       rdf:rollno "20162065" ;
+      foo:email "sachin.lomte@students.iiit.ac.in" ;
+      foaf:familyName "Lomte" ;
+      foaf:givenName "Sachin" .
+
+<mydb.org/stu/33> a foaf:Student ;
+       rdf:rollno "20162046" ;
+      foo:email "chandravati.m@students.iiit.ac.in" ;
+      foaf:familyName "Chandravati" ;
+      foaf:givenName "M" .
+
+<mydb.org/stu/34> a foaf:Student ;
+       rdf:rollno "20162048" ;
+      foo:email "ramkrishna.maheta@students.iiit.ac.in" ;
+      foaf:familyName "Maheta" ;
+      foaf:givenName "Ramkrishna" .
+
+<mydb.org/stu/206> a foaf:Student ;
+      rdf:rollno "201505565" ;
+      foo:email "athresh.g@students.iiit.ac.in" ;
+      foaf:familyName "G" ;
+      foaf:givenName "Athresh" .
+
+<mydb.org/stu/37> a foaf:Student ;
+       rdf:rollno "20162053" ;
+      foo:email "mohsin.mulani@students.iiit.ac.in" ;
+      foaf:familyName "Mulani" ;
+      foaf:givenName "Mohsin" .
+
+<mydb.org/stu/65> a foaf:Student ;
+       rdf:rollno "20162097" ;
+      foo:email "sayan.dutta@students.iiit.ac.in" ;
+      foaf:familyName "Dutta" ;
+      foaf:givenName "Sayan" .
+
+<mydb.org/stu/56> a foaf:Student ;
+       rdf:rollno "20162083" ;
+      foo:email "neethu.shaji@students.iiit.ac.in" ;
+      foaf:familyName "Shaji" ;
+      foaf:givenName "Neethu" .
+
+<mydb.org/stu/31> a foaf:Student ;
+       rdf:rollno "20162044" ;
+      foo:email "anandita.dhasmana@students.iiit.ac.in" ;
+      foaf:familyName "Dhasmana" ;
+      foaf:givenName "Anandita" .
+
+<mydb.org/stu/117> a foaf:Student ;
+      rdf:rollno "201301241" ;
+      foo:email "spurthi.tallam@students.iiit.ac.in" ;
+      foaf:familyName "Tallam" ;
+      foaf:givenName "Spurthi" .
+
+<mydb.org/stu/216> a foaf:Student ;
+      rdf:rollno "201505621" ;
+      foo:email "vadaliya.kishan@students.iiit.ac.in" ;
+      foaf:familyName "vadaliya" ;
+      foaf:givenName "kishan" .
+
+<mydb.org/stu/36> a foaf:Student ;
+       rdf:rollno "20162051" ;
+      foo:email "sahil.chelaramani@research.iiit.ac.in" ;
+      foaf:familyName "Chelaramani" ;
+      foaf:givenName "Sahil" .
+
+<mydb.org/stu/116> a foaf:Student ;
+      rdf:rollno "201301222" ;
+      foo:email "meghanasree.m@students.iiit.ac.in" ;
+      foaf:familyName "Manusanipalli" ;
+      foaf:givenName "Meghana" .
+
+<mydb.org/stu/201> a foaf:Student ;
+      rdf:rollno "201505517" ;
+      foo:email "praveen.yadav@students.iiit.ac.in" ;
+      foaf:familyName "Yadav" ;
+      foaf:givenName "Praveen" .
+
+<mydb.org/stu/166> a foaf:Student ;
+      rdf:rollno "201401206" ;
+      foo:email "aditya.motwani@students.iiit.ac.in" ;
+      foaf:familyName "Motwani" ;
+      foaf:givenName "Aditya" .
+
+<mydb.org/stu/35> a foaf:Student ;
+       rdf:rollno "20162050" ;
+      foo:email "rohit.dayama@students.iiit.ac.in" ;
+      foaf:familyName "Dayama" ;
+      foaf:givenName "Rohit" .
+
+<mydb.org/stu/30> a foaf:Student ;
+       rdf:rollno "20162043" ;
+      foo:email "saad.khan@students.iiit.ac.in" ;
+      foaf:familyName "Khan" ;
+      foaf:givenName "Saad" .
+
+<mydb.org/stu/122> a foaf:Student ;
+      rdf:rollno "201302044" ;
+      foo:email "chaitanyasai.alaparthi@research.iiit.ac.in" ;
+      foaf:familyName "alaparthi" ;
+      foaf:givenName "chaitanya sai" .
+
+<mydb.org/stu/136> a foaf:Student ;
+      rdf:rollno "201325096" ;
+      foo:email "e.pravallika@research.iiit.ac.in" ;
+      foaf:familyName "Etoori" ;
+      foaf:givenName "Pravallika" .
+
+<mydb.org/stu/66> a foaf:Student ;
+       rdf:rollno "20162098" ;
+      foo:email "vinisha.parwal@students.iiit.ac.in" ;
+      foaf:familyName "Parwal" ;
+      foaf:givenName "Vinisha" .
+
+<mydb.org/stu/57> a foaf:Student ;
+       rdf:rollno "20162084" ;
+      foo:email "shivani.tyagi@students.iiit.ac.in" ;
+      foaf:familyName "Tyagi" ;
+      foaf:givenName "Shivani" .
+
+<mydb.org/stu/164> a foaf:Student ;
+      rdf:rollno "201401196" ;
+      foo:email "shreyash.shriyam@students.iiit.ac.in" ;
+      foaf:familyName "Shriyam" ;
+      foaf:givenName "Shreyash" .
+
+<mydb.org/stu/186> a foaf:Student ;
+      rdf:rollno "201425023" ;
+      foo:email "shalin.agrawal@research.iiit.ac.in" ;
+      foaf:familyName "Agrawal" ;
+      foaf:givenName "Shalin" .
+
+<mydb.org/stu/62> a foaf:Student ;
+       rdf:rollno "20162093" ;
+      foo:email "satrajit.datta@students.iiit.ac.in" ;
+      foaf:familyName "Datta" ;
+      foaf:givenName "Satrajit" .
+
+<mydb.org/stu/165> a foaf:Student ;
+      rdf:rollno "201401199" ;
+      foo:email "harsha.pamidipalli@students.iiit.ac.in" ;
+      foaf:familyName "Pamidipalli" ;
+      foaf:givenName "Harsha" .
+
+<mydb.org/stu/157> a foaf:Student ;
+      rdf:rollno "201401082" ;
+      foo:email "rachit.garg@students.iiit.ac.in" ;
+      foaf:familyName "garg" ;
+      foaf:givenName "rachit" .
+
+<mydb.org/stu/142> a foaf:Student ;
+      rdf:rollno "201330174" ;
+      foo:email "shraddhan.jain@students.iiit.ac.in" ;
+      foaf:familyName "Jain" ;
+      foaf:givenName "Shraddhan" .
+
+<mydb.org/stu/120> a foaf:Student ;
+      rdf:rollno "201302022" ;
+      foo:email "palash.vijay@research.iiit.ac.in" ;
+      foaf:familyName "Vijay" ;
+      foaf:givenName "Palash" .
+
+<mydb.org/stu/162> a foaf:Student ;
+      rdf:rollno "201401136" ;
+      foo:email "archit.rai@students.iiit.ac.in" ;
+      foaf:familyName "Rai" ;
+      foaf:givenName "Archit" .
+
+<mydb.org/stu/135> a foaf:Student ;
+      rdf:rollno "201325059" ;
+      foo:email "vijjinianvesh.rao@research.iiit.ac.in" ;
+      foaf:familyName "Vijjini" ;
+      foaf:givenName "Anvesh" .
+
+<mydb.org/stu/181> a foaf:Student ;
+      rdf:rollno "201402215" ;
+      foo:email "hemant.kasat@research.iiit.ac.in" ;
+      foaf:familyName "kasat" ;
+      foaf:givenName "hemant" .
+
+<mydb.org/stu/12> a foaf:Student ;
+       rdf:rollno "20162019" ;
+      foo:email "chinmay.agarwal@students.iiit.ac.in" ;
+      foaf:familyName "AGARWAL" ;
+      foaf:givenName "CHINMAY" .
+
+<mydb.org/stu/48> a foaf:Student ;
+       rdf:rollno "20162071" ;
+      foo:email "krishna.k@students.iiit.ac.in" ;
+      foaf:familyName "kumar" ;
+      foaf:givenName "krishna" .
+
+<mydb.org/stu/29> a foaf:Student ;
+       rdf:rollno "20162042" ;
+      foo:email "meenal.jain@students.iiit.ac.in" ;
+      foaf:familyName "Jain" ;
+      foaf:givenName "Meenal" .
+
+<mydb.org/stu/118> a foaf:Student ;
+      rdf:rollno "201301243" ;
+      foo:email "vamseereddy.chamakura@students.iiit.ac.in" ;
+      foaf:familyName "Chamakura" ;
+      foaf:givenName "Vamsee" .
+
+<mydb.org/stu/141> a foaf:Student ;
+      rdf:rollno "201330067" ;
+      foo:email "ravikiran.c@students.iiit.ac.in" ;
+      foaf:familyName "Chanumolu" ;
+      foaf:givenName "Ravikiran" .
+
+<mydb.org/stu/183> a foaf:Student ;
+      rdf:rollno "201403010" ;
+      foo:email "vishal.gupta@research.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Vishal" .
+
+<mydb.org/stu/15> a foaf:Student ;
+       rdf:rollno "20162023" ;
+      foo:email "nikita.wani@students.iiit.ac.in" ;
+      foaf:familyName "WANI" ;
+      foaf:givenName "NIKITA" .
+
+<mydb.org/stu/59> a foaf:Student ;
+       rdf:rollno "20162087" ;
+      foo:email "shashank.upadhyay@students.iiit.ac.in" ;
+      foaf:familyName "upadhyay" ;
+      foaf:givenName "shashank" .
+
+<mydb.org/stu/27> a foaf:Student ;
+       rdf:rollno "20162040" ;
+      foo:email "ashwin.p@students.iiit.ac.in" ;
+      foaf:familyName "P" ;
+      foaf:givenName "ASHWIN" .
+
+<mydb.org/stu/182> a foaf:Student ;
+      rdf:rollno "201402238" ;
+      foo:email "shriyansh.agrawal@research.iiit.ac.in" ;
+      foaf:familyName "Agrawal" ;
+      foaf:givenName "Shriyansh" .
+
+<mydb.org/stu/14> a foaf:Student ;
+       rdf:rollno "20162021" ;
+      foo:email "akshay.kolge@students.iiit.ac.in" ;
+      foaf:familyName "KOLGE" ;
+      foaf:givenName "AKSHAY" .
+
+<mydb.org/stu/158> a foaf:Student ;
+      rdf:rollno "201401084" ;
+      foo:email "madhur.modi@students.iiit.ac.in" ;
+      foaf:familyName "Modi" ;
+      foaf:givenName "Madhur" .
+
+<mydb.org/stu/58> a foaf:Student ;
+       rdf:rollno "20162085" ;
+      foo:email "rohit.tiwari@students.iiit.ac.in" ;
+      foaf:familyName "Tiwari" ;
+      foaf:givenName "Rohit" .
+
+<mydb.org/stu/28> a foaf:Student ;
+       rdf:rollno "20162041" ;
+      foo:email "vinay.r@students.iiit.ac.in" ;
+      foaf:familyName "R" ;
+      foaf:givenName "VINAY" .
+
+<mydb.org/stu/187> a foaf:Student ;
+      rdf:rollno "201425031" ;
+      foo:email "ashutosh.ranjan@research.iiit.ac.in" ;
+      foaf:familyName "Ranjan" ;
+      foaf:givenName "Ashutosh" .
+
+<mydb.org/stu/143> a foaf:Student ;
+      rdf:rollno "201350880" ;
+      foo:email "anilkumar.n@students.iiit.ac.in" ;
+      foaf:familyName "Nimmalapudi" ;
+      foaf:givenName "Anil Kumar" .
+
+<mydb.org/stu/185> a foaf:Student ;
+      rdf:rollno "201425019" ;
+      foo:email "s.bhyravajjula@research.iiit.ac.in" ;
+      foaf:familyName "Bhyravajjula" ;
+      foaf:givenName "Sriharsh" .
+
+<mydb.org/stu/163> a foaf:Student ;
+      rdf:rollno "201401183" ;
+      foo:email "shruti.gupta@students.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Shruti" .
+
+<mydb.org/stu/61> a foaf:Student ;
+       rdf:rollno "20162092" ;
+      foo:email "hillol.datta@students.iiit.ac.in" ;
+      foaf:familyName "Datta" ;
+      foaf:givenName "Hillol" .
+
+<mydb.org/stu/119> a foaf:Student ;
+      rdf:rollno "201302017" ;
+      foo:email "ayush.mishra@research.iiit.ac.in" ;
+      foaf:familyName "Mishra" ;
+      foaf:givenName "Ayush" .
+
+<mydb.org/stu/180> a foaf:Student ;
+      rdf:rollno "201402213" ;
+      foo:email "raghuram.vadapalli@research.iiit.ac.in" ;
+      foaf:familyName "Vadapalli" ;
+      foaf:givenName "Raghuram" .
+
+<mydb.org/stu/10> a foaf:Student ;
+       rdf:rollno "20162015" ;
+      foo:email "abhinav.gupta@students.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Abhinav" .
+
+<mydb.org/stu/2> a foaf:Student ;
+        rdf:rollno "20162006" ;
+      foo:email "shikha.rani@students.iiit.ac.in" ;
+      foaf:familyName "Rani" ;
+      foaf:givenName "Shikha" .
+
+<mydb.org/stu/106> a foaf:Student ;
+      rdf:rollno "201301075" ;
+      foo:email "gpooja.shamili@students.iiit.ac.in" ;
+      foaf:familyName "Ganti" ;
+      foaf:givenName "Pooja" .
+
+<mydb.org/stu/80> a foaf:Student ;
+       rdf:rollno "20162123" ;
+      foo:email "divyani.sharma@students.iiit.ac.in" ;
+      foaf:familyName "Sharma" ;
+      foaf:givenName "Divyani" .
+
+<mydb.org/stu/69> a foaf:Student ;
+       rdf:rollno "20162101" ;
+      foo:email "mainak.b@students.iiit.ac.in" ;
+      foaf:familyName "Bhattacharjee" ;
+      foaf:givenName "Mainak" .
+
+<mydb.org/stu/85> a foaf:Student ;
+       rdf:rollno "20162303" ;
+      foo:email "pranav.dhakras@research.iiit.ac.in" ;
+      foaf:familyName "Dhakras" ;
+      foaf:givenName "Pranav" .
+
+<mydb.org/stu/60> a foaf:Student ;
+       rdf:rollno "20162088" ;
+      foo:email "gaurav.agarwal@students.iiit.ac.in" ;
+      foaf:familyName "Agarwal" ;
+      foaf:givenName "Gaurav" .
+
+<mydb.org/stu/39> a foaf:Student ;
+       rdf:rollno "20162056" ;
+      foo:email "pulkit.bansal@students.iiit.ac.in" ;
+      foaf:familyName "Bansal" ;
+      foaf:givenName "Pulkit" .
+
+<mydb.org/stu/87> a foaf:Student ;
+       rdf:rollno "20163013" ;
+      foo:email "gandhi.gangadhari@students.iiit.ac.in" ;
+      foaf:familyName "Gangadhari" ;
+      foaf:givenName "Gandhi" .
+
+<mydb.org/stu/11> a foaf:Student ;
+       rdf:rollno "20162016" ;
+      foo:email "snehal.pathak@students.iiit.ac.in" ;
+      foaf:familyName "Pathak" ;
+      foaf:givenName "Snehal" .
+
+<mydb.org/stu/137> a foaf:Student ;
+      rdf:rollno "201325186" ;
+      foo:email "nurendra.choudhary@research.iiit.ac.in" ;
+      foaf:familyName "Choudhary" ;
+      foaf:givenName "Nurendra" .
+
+<mydb.org/stu/98> a foaf:Student ;
+       rdf:rollno "201250899" ;
+      foo:email "ranvijay.singh@students.iiit.ac.in" ;
+      foaf:familyName "Singh" ;
+      foaf:givenName "Ran Vijay" .
+
+<mydb.org/stu/211> a foaf:Student ;
+      rdf:rollno "201505577" ;
+      foo:email "shailendra.joshi@students.iiit.ac.in" ;
+      foaf:familyName "Joshi" ;
+      foaf:givenName "Shailendra Kumar" .
+
+<mydb.org/stu/105> a foaf:Student ;
+      rdf:rollno "201301074" ;
+      foo:email "akhila.murthyreddy@students.iiit.ac.in" ;
+      foaf:familyName "Murthyreddy" ;
+      foaf:givenName "Akhila" .
+
+<mydb.org/stu/156> a foaf:Student ;
+      rdf:rollno "201401037" ;
+      foo:email "kumar.vivek@students.iiit.ac.in" ;
+      foaf:familyName "Kumar" ;
+      foaf:givenName "Vivek" .
+
+<mydb.org/stu/178> a foaf:Student ;
+      rdf:rollno "201402182" ;
+      foo:email "poojitha.nandigam@research.iiit.ac.in" ;
+      foaf:familyName "Nandigam" ;
+      foaf:givenName "Poojitha" .
+
+<mydb.org/stu/150> a foaf:Student ;
+      rdf:rollno "201364158" ;
+      foo:email "shubham.kumar@research.iiit.ac.in" ;
+      foaf:familyName "Kumar" ;
+      foaf:givenName "Shubham" .
+
+<mydb.org/stu/102> a foaf:Student ;
+      rdf:rollno "201301050" ;
+      foo:email "goutam.nair@students.iiit.ac.in" ;
+      foaf:familyName "Nair" ;
+      foaf:givenName "Goutam" .
+
+<mydb.org/stu/96> a foaf:Student ;
+       rdf:rollno "201231103" ;
+      foo:email "aishwarya.jain@research.iiit.ac.in" ;
+      foaf:familyName "Jain" ;
+      foaf:givenName "Aishwarya" .
+
+<mydb.org/stu/208> a foaf:Student ;
+      rdf:rollno "201505570" ;
+      foo:email "siddharth.saklecha@students.iiit.ac.in" ;
+      foaf:familyName "Saklecha" ;
+      foaf:givenName "Siddharth" .
+
+<mydb.org/stu/146> a foaf:Student ;
+      rdf:rollno "201356024" ;
+      foo:email "amitha.g@research.iiit.ac.in" ;
+      foaf:familyName "G" ;
+      foaf:givenName "Amitha" .
+
+<mydb.org/stu/131> a foaf:Student ;
+      rdf:rollno "201302207" ;
+      foo:email "sireeshanaidu.galla@research.iiit.ac.in" ;
+      foaf:familyName "galla" ;
+      foaf:givenName "sireesha naidu" .
+
+<mydb.org/stu/107> a foaf:Student ;
+      rdf:rollno "201301081" ;
+      foo:email "manepalli.sowmith@students.iiit.ac.in" ;
+      foaf:familyName "Manepalli" ;
+      foaf:givenName "Sowmith" .
+
+<mydb.org/stu/64> a foaf:Student ;
+       rdf:rollno "20162095" ;
+      foo:email "tannika.majumder@students.iiit.ac.in" ;
+      foaf:familyName "majumder" ;
+      foaf:givenName "tannika" .
+
+<mydb.org/stu/108> a foaf:Student ;
+      rdf:rollno "201301106" ;
+      foo:email "vivek.ghaisas@students.iiit.ac.in" ;
+      foaf:familyName "Ghaisas" ;
+      foaf:givenName "Vivek" .
+
+<mydb.org/stu/138> a foaf:Student ;
+      rdf:rollno "201325191" ;
+      foo:email "madhuri.tummalapalli@research.iiit.ac.in" ;
+      foaf:familyName "Tummalapalli" ;
+      foaf:givenName "Madhuri" .
+
+<mydb.org/stu/86> a foaf:Student ;
+       rdf:rollno "20162312" ;
+      foo:email "ayushi.gupta@research.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Ayushi" .
+
+<mydb.org/stu/4> a foaf:Student ;
+        rdf:rollno "20162008" ;
+      foo:email "vatsal.nagda@students.iiit.ac.in" ;
+      foaf:familyName "Nagda" ;
+      foaf:givenName "Vatsal" .
+
+<mydb.org/stu/212> a foaf:Student ;
+      rdf:rollno "201505581" ;
+      foo:email "chokshi.utsav@students.iiit.ac.in" ;
+      foaf:familyName "Chokshi" ;
+      foaf:givenName "Utsav" .
+
+<mydb.org/stu/63> a foaf:Student ;
+       rdf:rollno "20162094" ;
+      foo:email "swarnadeep.c@students.iiit.ac.in" ;
+      foaf:familyName "Chatterjee" ;
+      foaf:givenName "Swarnadeep" .
+
+<mydb.org/stu/188> a foaf:Student ;
+      rdf:rollno "201425070" ;
+      foo:email "jaipal.singh@research.iiit.ac.in" ;
+      foaf:familyName "Goud" ;
+      foaf:givenName "Jaipal Singh" .
+
+<mydb.org/stu/99> a foaf:Student ;
+       rdf:rollno "201256067" ;
+      foo:email "abrar.ahmed@research.iiit.ac.in" ;
+      foaf:familyName "Ahmed" ;
+      foaf:givenName "Abrar" .
+
+<mydb.org/stu/91> a foaf:Student ;
+       rdf:rollno "20163036" ;
+      foo:email "elizabeth.george@students.iiit.ac.in" ;
+      foaf:familyName "George" ;
+      foaf:givenName "Elizabeth" .
+
+<mydb.org/stu/83> a foaf:Student ;
+       rdf:rollno "20162130" ;
+      foo:email "yojana.birje@students.iiit.ac.in" ;
+      foaf:familyName "Birje" ;
+      foaf:givenName "Yojana" .
+
+<mydb.org/stu/90> a foaf:Student ;
+       rdf:rollno "20163035" ;
+      foo:email "sai.nallapati@students.iiit.ac.in" ;
+      foaf:familyName "Nallapati" ;
+      foaf:givenName "Sai" .
+
+<mydb.org/stu/179> a foaf:Student ;
+      rdf:rollno "201402211" ;
+      foo:email "yash.tewari@research.iiit.ac.in" ;
+      foaf:familyName "Tewari" ;
+      foaf:givenName "Yash" .
+
+<mydb.org/stu/104> a foaf:Student ;
+      rdf:rollno "201301068" ;
+      foo:email "sachin.sharma@students.iiit.ac.in" ;
+      foaf:familyName "Sharma" ;
+      foaf:givenName "Sachin" .
+
+<mydb.org/stu/3> a foaf:Student ;
+        rdf:rollno "20162007" ;
+      foo:email "nishu.vats@students.iiit.ac.in" ;
+      foaf:familyName "Vats" ;
+      foaf:givenName "Nishu" .
+
+<mydb.org/stu/5> a foaf:Student ;
+        rdf:rollno "20162010" ;
+      foo:email "nagaraj.poti@students.iiit.ac.in" ;
+      foaf:familyName "Poti" ;
+      foaf:givenName "Nagaraj" .
+
+<mydb.org/stu/110> a foaf:Student ;
+      rdf:rollno "201301134" ;
+      foo:email "yash.patel@students.iiit.ac.in" ;
+      foaf:familyName "Patel" ;
+      foaf:givenName "Yash" .
+
+<mydb.org/stu/84> a foaf:Student ;
+       rdf:rollno "20162138" ;
+      foo:email "vini.garg@students.iiit.ac.in" ;
+      foaf:familyName "Garg" ;
+      foaf:givenName "Vini" .
+
+<mydb.org/stu/147> a foaf:Student ;
+      rdf:rollno "201364028" ;
+      foo:email "dhrumil.patel@research.iiit.ac.in" ;
+      foaf:familyName "Patel" ;
+      foaf:givenName "Dhrumil" .
+
+<mydb.org/stu/125> a foaf:Student ;
+      rdf:rollno "201302170" ;
+      foo:email "indraneil.paul@research.iiit.ac.in" ;
+      foaf:familyName "Paul" ;
+      foaf:givenName "Indraneil" .
+
+<mydb.org/stu/88> a foaf:Student ;
+       rdf:rollno "20163014" ;
+      foo:email "srikanthreddy.m@students.iiit.ac.in" ;
+      foaf:familyName "Metlakunta" ;
+      foaf:givenName "Srikanth" .
+
+<mydb.org/stu/210> a foaf:Student ;
+      rdf:rollno "201505575" ;
+      foo:email "viplav.sanghvi@students.iiit.ac.in" ;
+      foaf:familyName "Sanghvi" ;
+      foaf:givenName "Viplav" .
+
+<mydb.org/stu/123> a foaf:Student ;
+      rdf:rollno "201302161" ;
+      foo:email "aaditya.mnair@research.iiit.ac.in" ;
+      foaf:familyName "M Nair" ;
+      foaf:givenName "Aaditya" .
+
+<mydb.org/stu/159> a foaf:Student ;
+      rdf:rollno "201401109" ;
+      foo:email "amit.gupta@students.iiit.ac.in" ;
+      foaf:familyName "gupta" ;
+      foaf:givenName "amit" .
+
+<mydb.org/stu/115> a foaf:Student ;
+      rdf:rollno "201301215" ;
+      foo:email "kakarla.dinesh@students.iiit.ac.in" ;
+      foaf:familyName "Kakarla" ;
+      foaf:givenName "Dinesh" .
+
+<mydb.org/stu/124> a foaf:Student ;
+      rdf:rollno "201302164" ;
+      foo:email "yash.khandelwal@research.iiit.ac.in" ;
+      foaf:familyName "Khandelwal" ;
+      foaf:givenName "Yash" .
+
+<mydb.org/stu/139> a foaf:Student ;
+      rdf:rollno "201325199" ;
+      foo:email "kaveri.anuranjana@research.iiit.ac.in" ;
+      foaf:familyName "Anuranjana" ;
+      foaf:givenName "Kaveri" .
+
+<mydb.org/stu/145> a foaf:Student ;
+      rdf:rollno "201350921" ;
+      foo:email "t.venkatamani@students.iiit.ac.in" ;
+      foaf:familyName "thipparaju" ;
+      foaf:givenName "venkatamani" .
+
+<mydb.org/stu/209> a foaf:Student ;
+      rdf:rollno "201505571" ;
+      foo:email "udbhav.kalra@students.iiit.ac.in" ;
+      foaf:familyName "Kalra" ;
+      foaf:givenName "Udbhav" .
+
+<mydb.org/stu/111> a foaf:Student ;
+      rdf:rollno "201301146" ;
+      foo:email "jalpreetsingh.nanda@students.iiit.ac.in" ;
+      foaf:familyName "Nanda" ;
+      foaf:givenName "Jalpreet Singh" .
+
+<mydb.org/stu/215> a foaf:Student ;
+      rdf:rollno "201505618" ;
+      foo:email "b.prabhakar@students.iiit.ac.in" ;
+      foaf:familyName "Bikkaneti" ;
+      foaf:givenName "Prabhakar" .
+
+<mydb.org/stu/190> a foaf:Student ;
+      rdf:rollno "201425095" ;
+      foo:email "riya.pal@research.iiit.ac.in" ;
+      foaf:familyName "Pal" ;
+      foaf:givenName "Riya" .
+
+<mydb.org/stu/204> a foaf:Student ;
+      rdf:rollno "201505553" ;
+      foo:email "chavanke.nikhil@students.iiit.ac.in" ;
+      foaf:familyName "Chavanke" ;
+      foaf:givenName "Nikhil" .
+
+<mydb.org/stu/73> a foaf:Student ;
+       rdf:rollno "20162109" ;
+      foo:email "dishant.chauhan@students.iiit.ac.in" ;
+      foaf:familyName "Chauhan" ;
+      foaf:givenName "Dishant" .
+
+<mydb.org/stu/76> a foaf:Student ;
+       rdf:rollno "20162115" ;
+      foo:email "mohammadishan.r@students.iiit.ac.in" ;
+      foaf:familyName "Rayeen" ;
+      foaf:givenName "Mohammad Ishan" .
+
+<mydb.org/stu/7> a foaf:Student ;
+        rdf:rollno "20162012" ;
+      foo:email "rini.tikarya@students.iiit.ac.in" ;
+      foaf:familyName "Tikarya" ;
+      foaf:givenName "Rini" .
+
+<mydb.org/stu/93> a foaf:Student ;
+       rdf:rollno "201225086" ;
+      foo:email "asif.hussain@research.iiit.ac.in" ;
+      foaf:familyName "Hussain" ;
+      foaf:givenName "Asif" .
+
+<mydb.org/stu/25> a foaf:Student ;
+       rdf:rollno "20162037" ;
+      foo:email "suryansh.agnihotri@students.iiit.ac.in" ;
+      foaf:familyName "Agnihotri" ;
+      foaf:givenName "Suryansh" .
+
+<mydb.org/stu/92> a foaf:Student ;
+       rdf:rollno "201050014" ;
+      foo:email "guruprasad.j@research.iiit.ac.in" ;
+      foaf:familyName "Research" ;
+      foaf:givenName "Guruprasad" .
+
+<mydb.org/stu/151> a foaf:Student ;
+      rdf:rollno "201364162" ;
+      foo:email "ayush.jhunjhunwala@research.iiit.ac.in" ;
+      foaf:familyName "Jhunjhunwala" ;
+      foaf:givenName "Ayush" .
+
+<mydb.org/stu/152> a foaf:Student ;
+      rdf:rollno "201364196" ;
+      foo:email "rohit.roy@research.iiit.ac.in" ;
+      foaf:familyName "Roy" ;
+      foaf:givenName "Rohit" .
+
+<mydb.org/stu/77> a foaf:Student ;
+       rdf:rollno "20162116" ;
+      foo:email "adithya.avvaru@students.iiit.ac.in" ;
+      foaf:familyName "Avvaru" ;
+      foaf:givenName "Adithya" .
+
+<mydb.org/stu/175> a foaf:Student ;
+      rdf:rollno "201402076" ;
+      foo:email "rajas.vanjape@research.iiit.ac.in" ;
+      foaf:familyName "vanjape" ;
+      foaf:givenName "rajas" .
+
+<mydb.org/stu/6> a foaf:Student ;
+        rdf:rollno "20162011" ;
+      foo:email "varun.mundale@students.iiit.ac.in" ;
+      foaf:familyName "Mundale" ;
+      foaf:givenName "Varun" .
+
+<mydb.org/stu/26> a foaf:Student ;
+       rdf:rollno "20162039" ;
+      foo:email "piyush.shrivastava@students.iiit.ac.in" ;
+      foaf:familyName "Shrivastava" ;
+      foaf:givenName "Piyush" .
+
+<mydb.org/stu/21> a foaf:Student ;
+       rdf:rollno "20162029" ;
+      foo:email "ramamurthi.k@students.iiit.ac.in" ;
+      foaf:familyName "kumar" ;
+      foaf:givenName "ramamurthi" .
+
+<mydb.org/stu/94> a foaf:Student ;
+       rdf:rollno "201230051" ;
+      foo:email "mehtabahmed.khan@students.iiit.ac.in" ;
+      foaf:familyName "Ahmed Khan" ;
+      foaf:givenName "Mehtab" .
+
+<mydb.org/stu/130> a foaf:Student ;
+      rdf:rollno "201302201" ;
+      foo:email "sneh.gupta@research.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Sneh" .
+
+<mydb.org/stu/224> a foaf:Student ;
+      rdf:rollno "201550852" ;
+      foo:email "chsss.kumar@research.iiit.ac.in" ;
+      foaf:familyName "Chivukula" ;
+      foaf:givenName "S S S Kumar" .
+
+<mydb.org/stu/75> a foaf:Student ;
+       rdf:rollno "20162112" ;
+      foo:email "hemang.akbari@students.iiit.ac.in" ;
+      foaf:familyName "akbari" ;
+      foaf:givenName "hemang" .
+
+<mydb.org/stu/8> a foaf:Student ;
+        rdf:rollno "20162013" ;
+      foo:email "manoj.kabra@students.iiit.ac.in" ;
+      foaf:familyName "Kabra" ;
+      foaf:givenName "Manoj" .
+
+<mydb.org/stu/192> a foaf:Student ;
+      rdf:rollno "201425135" ;
+      foo:email "koushikreddy.sane@research.iiit.ac.in" ;
+      foaf:familyName "Sane" ;
+      foaf:givenName "Koushik" .
+
+<mydb.org/stu/74> a foaf:Student ;
+       rdf:rollno "20162110" ;
+      foo:email "bhavana.podapati@students.iiit.ac.in" ;
+      foaf:familyName "Podapati" ;
+      foaf:givenName "Bhavana" .
+
+<mydb.org/stu/170> a foaf:Student ;
+      rdf:rollno "201402002" ;
+      foo:email "pinkesh.badjatiya@research.iiit.ac.in" ;
+      foaf:familyName "Badjatiya" ;
+      foaf:givenName "Pinkesh" .
+
+<mydb.org/stu/109> a foaf:Student ;
+      rdf:rollno "201301121" ;
+      foo:email "kavya.nerella@students.iiit.ac.in" ;
+      foaf:familyName "Nerella" ;
+      foaf:givenName "Kavya" .
+
+<mydb.org/stu/22> a foaf:Student ;
+       rdf:rollno "20162032" ;
+      foo:email "sandip.tiwari@students.iiit.ac.in" ;
+      foaf:familyName "Tiwari" ;
+      foaf:givenName "Sandip" .
+
+<mydb.org/stu/207> a foaf:Student ;
+      rdf:rollno "201505569" ;
+      foo:email "balamurugan.t@students.iiit.ac.in" ;
+      foaf:familyName "Selvaraju" ;
+      foaf:givenName "Balamurugan" .
+
+<mydb.org/stu/191> a foaf:Student ;
+      rdf:rollno "201425117" ;
+      foo:email "sai.nanduri@research.iiit.ac.in" ;
+      foaf:familyName "Nanduri" ;
+      foaf:givenName "Vivek" .
+
+<mydb.org/stu/95> a foaf:Student ;
+       rdf:rollno "201231077" ;
+      foo:email "kotlosai.sharan@research.iiit.ac.in" ;
+      foaf:familyName "Kotlo" ;
+      foaf:givenName "Sharan" .
+
+<mydb.org/stu/18> a foaf:Student ;
+       rdf:rollno "20162026" ;
+      foo:email "akhil.gupta@students.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Akhil" .
+
+<mydb.org/stu/19> a foaf:Student ;
+       rdf:rollno "20162027" ;
+      foo:email "pritam.rathi@students.iiit.ac.in" ;
+      foaf:familyName "Rathi" ;
+      foaf:givenName "Pritam" .
+
+<mydb.org/stu/67> a foaf:Student ;
+       rdf:rollno "20162099" ;
+      foo:email "diptam.ghosh@students.iiit.ac.in" ;
+      foaf:familyName "Ghosh" ;
+      foaf:givenName "Diptam" .
+
+<mydb.org/stu/171> a foaf:Student ;
+      rdf:rollno "201402004" ;
+      foo:email "ameya.prabhu@research.iiit.ac.in" ;
+      foaf:familyName "Prabhu" ;
+      foaf:givenName "Ameya" .
+
+<mydb.org/stu/16> a foaf:Student ;
+       rdf:rollno "20162024" ;
+      foo:email "abhishek.sh@students.iiit.ac.in" ;
+      foaf:familyName "Sharma" ;
+      foaf:givenName "Abhishek" .
+
+<mydb.org/stu/82> a foaf:Student ;
+       rdf:rollno "20162127" ;
+      foo:email "rohan.adesara@students.iiit.ac.in" ;
+      foaf:familyName "Adesara" ;
+      foaf:givenName "Rohan" .
+
+<mydb.org/stu/70> a foaf:Student ;
+       rdf:rollno "20162102" ;
+      foo:email "saurabh.singh@students.iiit.ac.in" ;
+      foaf:familyName "Singh" ;
+      foaf:givenName "Saurabh" .
+
+<mydb.org/stu/81> a foaf:Student ;
+       rdf:rollno "20162126" ;
+      foo:email "sayantan.g@students.iiit.ac.in" ;
+      foaf:familyName "Gangopadhyay" ;
+      foaf:givenName "Sayantan" .
+
+<mydb.org/stu/169> a foaf:Student ;
+      rdf:rollno "201401232" ;
+      foo:email "vishnu.panjala@students.iiit.ac.in" ;
+      foaf:familyName "panjala" ;
+      foaf:givenName "vishnu vardhan" .
+
+<mydb.org/stu/132> a foaf:Student ;
+      rdf:rollno "201302234" ;
+      foo:email "kotni.amulya@research.iiit.ac.in" ;
+      foaf:familyName "Kotni" ;
+      foaf:givenName "Amulya" .
+
+<mydb.org/stu/17> a foaf:Student ;
+       rdf:rollno "20162025" ;
+      foo:email "sandeepan.baidya@students.iiit.ac.in" ;
+      foaf:familyName "Baidya" ;
+      foaf:givenName "Sandeepan" .
+
+<mydb.org/stu/176> a foaf:Student ;
+      rdf:rollno "201402078" ;
+      foo:email "murali.dakannagari@research.iiit.ac.in" ;
+      foaf:familyName "Dakannagari" ;
+      foaf:givenName "Murali Krishna" .
+
+<mydb.org/stu/24> a foaf:Student ;
+       rdf:rollno "20162035" ;
+      foo:email "aneel.balda@students.iiit.ac.in" ;
+      foaf:familyName "0" ;
+      foaf:givenName "aneel" .
+
+<mydb.org/stu/68> a foaf:Student ;
+       rdf:rollno "20162100" ;
+      foo:email "arijit.das@students.iiit.ac.in" ;
+      foaf:familyName "Das" ;
+      foaf:givenName "Arijit" .
+
+<mydb.org/stu/103> a foaf:Student ;
+      rdf:rollno "201301058" ;
+      foo:email "varun.gupta@students.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Varun" .
+
+<mydb.org/stu/23> a foaf:Student ;
+       rdf:rollno "20162034" ;
+      foo:email "mansi.singh@students.iiit.ac.in" ;
+      foaf:familyName "singh" ;
+      foaf:givenName "mansi" .
+
+<mydb.org/stu/167> a foaf:Student ;
+      rdf:rollno "201401208" ;
+      foo:email "manasa.chakka@students.iiit.ac.in" ;
+      foaf:familyName "Chakka" ;
+      foaf:givenName "Manasa" .
+
+<mydb.org/stu/189> a foaf:Student ;
+      rdf:rollno "201425077" ;
+      foo:email "vinayak.athavale@research.iiit.ac.in" ;
+      foaf:familyName "athavale" ;
+      foaf:givenName "vinayak" .
+
+<mydb.org/stu/43> a foaf:Student ;
+       rdf:rollno "20162063" ;
+      foo:email "rupali.aher@students.iiit.ac.in" ;
+      foaf:familyName "Aher" ;
+      foaf:givenName "Rupali" .
+
+<mydb.org/stu/172> a foaf:Student ;
+      rdf:rollno "201402017" ;
+      foo:email "ayush.joshi@research.iiit.ac.in" ;
+      foaf:familyName "Joshi" ;
+      foaf:givenName "Ayush" .
+
+<mydb.org/stu/168> a foaf:Student ;
+      rdf:rollno "201401220" ;
+      foo:email "saisahith.nama@students.iiit.ac.in" ;
+      foaf:familyName "Nama" ;
+      foaf:givenName "Sai Sahith" .
+
+<mydb.org/stu/97> a foaf:Student ;
+       rdf:rollno "201250877" ;
+      foo:email "aakar.gupta@students.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Aakar" .
+
+<mydb.org/stu/101> a foaf:Student ;
+      rdf:rollno "201301026" ;
+      foo:email "abdulla.shamim@students.iiit.ac.in" ;
+      foaf:familyName "shamim" ;
+      foaf:givenName "abdulla" .
+
+<mydb.org/stu/202> a foaf:Student ;
+      rdf:rollno "201505533" ;
+      foo:email "surbhi.gupta@students.iiit.ac.in" ;
+      foaf:familyName "Gupta" ;
+      foaf:givenName "Surbhi" .
+
+<mydb.org/stu/155> a foaf:Student ;
+      rdf:rollno "201401030" ;
+      foo:email "palash.chakraborty@students.iiit.ac.in" ;
+      foaf:familyName "Chakraborty" ;
+      foaf:givenName "Palash" .
+
+<mydb.org/stu/71> a foaf:Student ;
+       rdf:rollno "20162104" ;
+      foo:email "sejal.naidu@students.iiit.ac.in" ;
+      foaf:familyName "Naidu" ;
+      foaf:givenName "Sejal" .
+
+<mydb.org/stu/38> a foaf:Student ;
+       rdf:rollno "20162055" ;
+      foo:email "damodar.paidukle@students.iiit.ac.in" ;
+      foaf:familyName "Pai Dukle" ;
+      foaf:givenName "Damodar" .
+
+<mydb.org/stu/133> a foaf:Student ;
+      rdf:rollno "201307595" ;
+      foo:email "litton.jkurisinkel@research.iiit.ac.in" ;
+      foaf:familyName "J Kurisinkel" ;
+      foaf:givenName "Litton" .
+
+<mydb.org/stu/44> a foaf:Student ;
+       rdf:rollno "20162064" ;
+      foo:email "rajesh.mahato@students.iiit.ac.in" ;
+      foaf:familyName "Mahato" ;
+      foaf:givenName "Rajesh" .
+
+<mydb.org/stu/9> a foaf:Student ;
+        rdf:rollno "20162014" ;
+      foo:email "ranjana.m@students.iiit.ac.in" ;
+      foaf:familyName "Mummidivarapu" ;
+      foaf:givenName "Ranjana" .
+
+<mydb.org/stu/72> a foaf:Student ;
+       rdf:rollno "20162107" ;
+      foo:email "naveen.sharma@students.iiit.ac.in" ;
+      foaf:familyName "Sharma" ;
+      foaf:givenName "Naveen" .
+
+##########################################################################REGISTRATIONS#########
+
+<mydb.org/reg/248> a foaf:Registration ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/206> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/221> a foaf:Registration ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/189> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/51> a foaf:Registration ;
+       foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/49> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/54> a foaf:Registration ;
+       foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/52> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/265> a foaf:Registration ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/222> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/128> a foaf:Registration ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/121> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/195> a foaf:Registration ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/176> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/269> a foaf:Registration ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/224> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/240> a foaf:Registration ;
+      foo:marks "74" ;
+      	foo:studentid <mydb.org/stu/198> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/126> a foaf:Registration ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/119> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/140> a foaf:Registration ;
+      foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/132> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/55> a foaf:Registration ;
+       foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/53> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/112> a foaf:Registration ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/105> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/218> a foaf:Registration ;
+      foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/188> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/174> a foaf:Registration ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/163> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/78> a foaf:Registration ;
+       foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/75> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/89> a foaf:Registration ;
+       foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/85> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/161> a foaf:Registration ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/152> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/196> a foaf:Registration ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/176> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/42> a foaf:Registration ;
+       foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/40> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/20> a foaf:Registration ;
+       foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/20> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/220> a foaf:Registration ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/188> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/53> a foaf:Registration ;
+       foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/51> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/213> a foaf:Registration ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/185> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/257> a foaf:Registration ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/215> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/261> a foaf:Registration ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/219> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/160> a foaf:Registration ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/151> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/134> a foaf:Registration ;
+      foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/126> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/266> a foaf:Registration ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/223> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/41> a foaf:Registration ;
+       foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/39> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/244> a foaf:Registration ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/202> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/13> a foaf:Registration ;
+       foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/13> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/52> a foaf:Registration ;
+       foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/50> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/121> a foaf:Registration ;
+      foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/114> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/100> a foaf:Registration ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/93> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/194> a foaf:Registration ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/175> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/144> a foaf:Registration ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/136> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/200> a foaf:Registration ;
+      foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/178> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/79> a foaf:Registration ;
+       foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/76> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/222> a foaf:Registration ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/189> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/50> a foaf:Registration ;
+       foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/48> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/148> a foaf:Registration ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/140> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/40> a foaf:Registration ;
+       foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/38> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/205> a foaf:Registration ;
+      foo:marks "78" ;
+      	foo:studentid <mydb.org/stu/180> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/113> a foaf:Registration ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/106> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/193> a foaf:Registration ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/175> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/154> a foaf:Registration ;
+      foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/146> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/127> a foaf:Registration ;
+      foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/120> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/173> a foaf:Registration ;
+      foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/162> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/198> a foaf:Registration ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/177> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/247> a foaf:Registration ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/205> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/203> a foaf:Registration ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/179> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/249> a foaf:Registration ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/207> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/263> a foaf:Registration ;
+      foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/220> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/235> a foaf:Registration ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/195> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/129> a foaf:Registration ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/122> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/153> a foaf:Registration ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/145> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/219> a foaf:Registration ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/188> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/197> a foaf:Registration ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/176> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/49> a foaf:Registration ;
+       foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/47> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/223> a foaf:Registration ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/189> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/177> a foaf:Registration ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/166> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/199> a foaf:Registration ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/177> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/217> a foaf:Registration ;
+      foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/187> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/114> a foaf:Registration ;
+      foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/107> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/32> a foaf:Registration ;
+       foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/32> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/47> a foaf:Registration ;
+       foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/45> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/260> a foaf:Registration ;
+      foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/218> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/184> a foaf:Registration ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/171> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/46> a foaf:Registration ;
+       foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/44> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/214> a foaf:Registration ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/186> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/149> a foaf:Registration ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/141> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/45> a foaf:Registration ;
+       foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/43> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/33> a foaf:Registration ;
+       foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/33> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/34> a foaf:Registration ;
+       foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/34> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/206> a foaf:Registration ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/180> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/37> a foaf:Registration ;
+       foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/36> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/65> a foaf:Registration ;
+       foo:marks "74" ;
+      	foo:studentid <mydb.org/stu/62> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/56> a foaf:Registration ;
+       foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/54> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/264> a foaf:Registration ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/221> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/31> a foaf:Registration ;
+       foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/31> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/117> a foaf:Registration ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/110> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/216> a foaf:Registration ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/187> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/36> a foaf:Registration ;
+       foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/35> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/116> a foaf:Registration ;
+      foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/109> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/201> a foaf:Registration ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/178> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/239> a foaf:Registration ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/197> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/166> a foaf:Registration ;
+      foo:marks "89" ;
+      	foo:studentid <mydb.org/stu/157> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/35> a foaf:Registration ;
+       foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/35> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/30> a foaf:Registration ;
+       foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/30> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/245> a foaf:Registration ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/203> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/122> a foaf:Registration ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/115> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/136> a foaf:Registration ;
+      foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/128> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/66> a foaf:Registration ;
+       foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/63> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/57> a foaf:Registration ;
+       foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/55> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/164> a foaf:Registration ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/155> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/186> a foaf:Registration ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/172> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/62> a foaf:Registration ;
+       foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/60> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/165> a foaf:Registration ;
+      foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/156> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/243> a foaf:Registration ;
+      foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/201> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/157> a foaf:Registration ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/149> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/142> a foaf:Registration ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/134> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/120> a foaf:Registration ;
+      foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/113> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/162> a foaf:Registration ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/153> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/135> a foaf:Registration ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/127> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/262> a foaf:Registration ;
+      foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/220> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/181> a foaf:Registration ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/169> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/12> a foaf:Registration ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/12> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/241> a foaf:Registration ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/199> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/29> a foaf:Registration ;
+       foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/29> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/48> a foaf:Registration ;
+       foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/46> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/118> a foaf:Registration ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/111> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/141> a foaf:Registration ;
+      foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/133> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/242> a foaf:Registration ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/200> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/15> a foaf:Registration ;
+       foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/15> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/183> a foaf:Registration ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/170> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/59> a foaf:Registration ;
+       foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/57> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/27> a foaf:Registration ;
+       foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/27> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/182> a foaf:Registration ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/170> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/14> a foaf:Registration ;
+       foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/14> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/158> a foaf:Registration ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/149> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/58> a foaf:Registration ;
+       foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/56> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/28> a foaf:Registration ;
+       foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/28> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/187> a foaf:Registration ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/173> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/143> a foaf:Registration ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/135> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/185> a foaf:Registration ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/172> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/267> a foaf:Registration ;
+      foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/224> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/163> a foaf:Registration ;
+      foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/154> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/61> a foaf:Registration ;
+       foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/59> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/119> a foaf:Registration ;
+      foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/112> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/180> a foaf:Registration ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/168> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/10> a foaf:Registration ;
+       foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/10> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/259> a foaf:Registration ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/217> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/2> a foaf:Registration ;
+        foo:marks "100" ;
+      	foo:studentid <mydb.org/stu/2> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/229> a foaf:Registration ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/192> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/106> a foaf:Registration ;
+      foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/99> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/80> a foaf:Registration ;
+       foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/77> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/69> a foaf:Registration ;
+       foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/66> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/258> a foaf:Registration ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/216> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/250> a foaf:Registration ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/208> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/85> a foaf:Registration ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/81> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/1> a foaf:Registration ;
+        foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/1> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/60> a foaf:Registration ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/58> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/255> a foaf:Registration ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/213> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/39> a foaf:Registration ;
+       foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/38> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/230> a foaf:Registration ;
+      foo:marks "74" ;
+      	foo:studentid <mydb.org/stu/193> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/87> a foaf:Registration ;
+       foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/83> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/11> a foaf:Registration ;
+       foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/11> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/137> a foaf:Registration ;
+      foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/129> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/98> a foaf:Registration ;
+       foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/92> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/211> a foaf:Registration ;
+      foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/185> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/228> a foaf:Registration ;
+      foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/192> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/252> a foaf:Registration ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/210> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/105> a foaf:Registration ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/98> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/156> a foaf:Registration ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/148> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/178> a foaf:Registration ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/166> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/150> a foaf:Registration ;
+      foo:marks "94" ;
+      	foo:studentid <mydb.org/stu/142> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/102> a foaf:Registration ;
+      foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/95> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/96> a foaf:Registration ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/90> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/231> a foaf:Registration ;
+      foo:marks "64" ;
+      	foo:studentid <mydb.org/stu/193> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/208> a foaf:Registration ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/182> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/146> a foaf:Registration ;
+      foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/138> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/131> a foaf:Registration ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/123> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/107> a foaf:Registration ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/100> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/64> a foaf:Registration ;
+       foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/61> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/108> a foaf:Registration ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/101> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/138> a foaf:Registration ;
+      foo:marks "89" ;
+      	foo:studentid <mydb.org/stu/130> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/86> a foaf:Registration ;
+       foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/82> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/4> a foaf:Registration ;
+        foo:marks "95" ;
+      	foo:studentid <mydb.org/stu/4> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/251> a foaf:Registration ;
+      foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/209> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/212> a foaf:Registration ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/185> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/63> a foaf:Registration ;
+       foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/60> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/256> a foaf:Registration ;
+      foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/214> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/188> a foaf:Registration ;
+      foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/173> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/99> a foaf:Registration ;
+       foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/93> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/237> a foaf:Registration ;
+      foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/196> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/91> a foaf:Registration ;
+       foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/85> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/83> a foaf:Registration ;
+       foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/79> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/90> a foaf:Registration ;
+       foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/85> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/179> a foaf:Registration ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/167> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/227> a foaf:Registration ;
+      foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/191> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/226> a foaf:Registration ;
+      foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/191> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/236> a foaf:Registration ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/196> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/104> a foaf:Registration ;
+      foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/97> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/3> a foaf:Registration ;
+        foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/3> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/238> a foaf:Registration ;
+      foo:marks "100" ;
+      	foo:studentid <mydb.org/stu/197> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/5> a foaf:Registration ;
+        foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/5> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/110> a foaf:Registration ;
+      foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/103> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/84> a foaf:Registration ;
+       foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/80> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/147> a foaf:Registration ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/139> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/125> a foaf:Registration ;
+      foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/118> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/233> a foaf:Registration ;
+      foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/194> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/88> a foaf:Registration ;
+       foo:marks "72" ;
+      	foo:studentid <mydb.org/stu/84> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/246> a foaf:Registration ;
+      foo:marks "65" ;
+      	foo:studentid <mydb.org/stu/204> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/210> a foaf:Registration ;
+      foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/184> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/123> a foaf:Registration ;
+      foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/116> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/159> a foaf:Registration ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/150> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/115> a foaf:Registration ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/108> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/232> a foaf:Registration ;
+      foo:marks "61" ;
+      	foo:studentid <mydb.org/stu/193> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/139> a foaf:Registration ;
+      foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/131> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/124> a foaf:Registration ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/117> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/145> a foaf:Registration ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/137> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/209> a foaf:Registration ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/183> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/234> a foaf:Registration ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/195> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/111> a foaf:Registration ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/104> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/215> a foaf:Registration ;
+      foo:marks "81" ;
+      	foo:studentid <mydb.org/stu/186> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/190> a foaf:Registration ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/174> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/204> a foaf:Registration ;
+      foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/180> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/73> a foaf:Registration ;
+       foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/70> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/76> a foaf:Registration ;
+       foo:marks "82" ;
+      	foo:studentid <mydb.org/stu/73> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/7> a foaf:Registration ;
+        foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/7> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/93> a foaf:Registration ;
+       foo:marks "100" ;
+      	foo:studentid <mydb.org/stu/87> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/25> a foaf:Registration ;
+       foo:marks "99" ;
+      	foo:studentid <mydb.org/stu/25> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/92> a foaf:Registration ;
+       foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/86> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/151> a foaf:Registration ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/143> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/225> a foaf:Registration ;
+      foo:marks "83" ;
+      	foo:studentid <mydb.org/stu/190> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/152> a foaf:Registration ;
+      foo:marks "92" ;
+      	foo:studentid <mydb.org/stu/144> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/77> a foaf:Registration ;
+       foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/74> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/175> a foaf:Registration ;
+      foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/164> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/6> a foaf:Registration ;
+        foo:marks "84" ;
+      	foo:studentid <mydb.org/stu/6> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/26> a foaf:Registration ;
+       foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/26> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/21> a foaf:Registration ;
+       foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/21> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/130> a foaf:Registration ;
+      foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/123> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/94> a foaf:Registration ;
+       foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/88> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/268> a foaf:Registration ;
+      foo:marks "60" ;
+      	foo:studentid <mydb.org/stu/224> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/224> a foaf:Registration ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/190> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/75> a foaf:Registration ;
+       foo:marks "89" ;
+      	foo:studentid <mydb.org/stu/72> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/8> a foaf:Registration ;
+        foo:marks "63" ;
+      	foo:studentid <mydb.org/stu/8> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/192> a foaf:Registration ;
+      foo:marks "69" ;
+      	foo:studentid <mydb.org/stu/175> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/170> a foaf:Registration ;
+      foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/161> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/74> a foaf:Registration ;
+       foo:marks "66" ;
+      	foo:studentid <mydb.org/stu/71> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/109> a foaf:Registration ;
+      foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/102> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/22> a foaf:Registration ;
+       foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/22> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/191> a foaf:Registration ;
+      foo:marks "65" ;
+      	foo:studentid <mydb.org/stu/174> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/207> a foaf:Registration ;
+      foo:marks "85" ;
+      	foo:studentid <mydb.org/stu/181> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/95> a foaf:Registration ;
+       foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/89> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/18> a foaf:Registration ;
+       foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/18> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/19> a foaf:Registration ;
+       foo:marks "95" ;
+      	foo:studentid <mydb.org/stu/19> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/67> a foaf:Registration ;
+       foo:marks "68" ;
+      	foo:studentid <mydb.org/stu/64> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/171> a foaf:Registration ;
+      foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/161> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/16> a foaf:Registration ;
+       foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/16> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/82> a foaf:Registration ;
+       foo:marks "74" ;
+      	foo:studentid <mydb.org/stu/79> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/70> a foaf:Registration ;
+       foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/67> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/81> a foaf:Registration ;
+       foo:marks "71" ;
+      	foo:studentid <mydb.org/stu/78> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/169> a foaf:Registration ;
+      foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/160> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/132> a foaf:Registration ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/124> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/17> a foaf:Registration ;
+       foo:marks "91" ;
+      	foo:studentid <mydb.org/stu/17> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/176> a foaf:Registration ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/165> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/24> a foaf:Registration ;
+       foo:marks "90" ;
+      	foo:studentid <mydb.org/stu/24> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/68> a foaf:Registration ;
+       foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/65> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/103> a foaf:Registration ;
+      foo:marks "77" ;
+      	foo:studentid <mydb.org/stu/96> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/23> a foaf:Registration ;
+       foo:marks "88" ;
+      	foo:studentid <mydb.org/stu/23> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/167> a foaf:Registration ;
+      foo:marks "98" ;
+      	foo:studentid <mydb.org/stu/158> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/189> a foaf:Registration ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/173> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/43> a foaf:Registration ;
+       foo:marks "100" ;
+      	foo:studentid <mydb.org/stu/41> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/253> a foaf:Registration ;
+      foo:marks "76" ;
+      	foo:studentid <mydb.org/stu/211> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/172> a foaf:Registration ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/161> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/254> a foaf:Registration ;
+      foo:marks "62" ;
+      	foo:studentid <mydb.org/stu/212> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/168> a foaf:Registration ;
+      foo:marks "87" ;
+      	foo:studentid <mydb.org/stu/159> ;
+      foo:courseid <mydb.org/cou/1> .
+
+<mydb.org/reg/97> a foaf:Registration ;
+       foo:marks "75" ;
+      	foo:studentid <mydb.org/stu/91> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/101> a foaf:Registration ;
+      foo:marks "86" ;
+      	foo:studentid <mydb.org/stu/94> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/202> a foaf:Registration ;
+      foo:marks "93" ;
+      	foo:studentid <mydb.org/stu/178> ;
+      foo:courseid <mydb.org/cou/4> .
+
+<mydb.org/reg/155> a foaf:Registration ;
+      foo:marks "73" ;
+      	foo:studentid <mydb.org/stu/147> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/71> a foaf:Registration ;
+       foo:marks "96" ;
+      	foo:studentid <mydb.org/stu/68> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/38> a foaf:Registration ;
+       foo:marks "70" ;
+      	foo:studentid <mydb.org/stu/37> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/133> a foaf:Registration ;
+      foo:marks "67" ;
+      	foo:studentid <mydb.org/stu/125> ;
+      foo:courseid <mydb.org/cou/3> .
+
+<mydb.org/reg/44> a foaf:Registration ;
+       foo:marks "79" ;
+      	foo:studentid <mydb.org/stu/42> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/9> a foaf:Registration ;
+        foo:marks "97" ;
+      	foo:studentid <mydb.org/stu/9> ;
+      foo:courseid <mydb.org/cou/2> .
+
+<mydb.org/reg/72> a foaf:Registration ;
+       foo:marks "80" ;
+      	foo:studentid <mydb.org/stu/69> ;
+      foo:courseid <mydb.org/cou/2> .
+
+
+
+
+###################FACULTIES###########################FACULTIES#####################
+
+<mydb.org/fac/1> a foaf:Faculty;
+      foo:email "m[dot]shrivastava[at]iiit[dot]ac[dot]in" ;
+      foaf:familyName "Shrivastava" ;
+      foaf:givenName "Manish" .
+
+
+####################COURSES##############################COURSES######################
+
+<mydb.org/cou/2> a foaf:Course ;
+      foo:courseName "Operating Systems PG" ;
+      foo:courseCode "CSE531" ;
+      foo:faculty <mydb.org/fac/1> .
+
+<mydb.org/cou/4> a foaf:Course ;
+      foo:courseName "Topics In Information Retrieval" ;
+      foo:courseCode "CSE974" ;
+      foo:faculty <mydb.org/fac/1> .
+
+<mydb.org/cou/3> a foaf:Course ;
+      foo:courseName "Natural Language Applications" ;
+      foo:courseCode "CSE573" ;
+      foo:faculty <mydb.org/fac/1> .
+
+<mydb.org/cou/1> a foaf:Course ;
+      foo:courseName "Natural Language Processing" ;
+      foo:courseCode "CSE472" ;
+      foo:faculty <mydb.org/fac/1> .
+
