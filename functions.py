@@ -79,6 +79,19 @@ def getFaculty(ner):       #Faculty of Course
             a.append(row.x+" "+row.y)
         a=",".join(a)
         return st+a
+def getEmail_Student(ner):  #Email of student
+    emails=[]
+    for student in ner['Student']:
+        if 'foo:email' in ner['attributes']:
+            rdfquery=''
+            rdfquery=rdfquery+getID(student,"foaf:givenName",var[0])
+            rdfquery=rdfquery+idtosolution(var[0],"foo:email",sol)
+            finalquery='select ?x where { ' + rdfquery + " }"
+            for row in g.query(finalquery):
+                emails.append("Email of "+student+" : "+row.x)
+    return emails
+
+
 
 if __name__=="__main__":
     nl_query = input("Enter the query: ")
@@ -91,53 +104,54 @@ if __name__=="__main__":
             for key in attributes:
                 if i in attributes[key]:
                     functions = attributes[key][:]
-    """
-    #Get Faculty of course
-    faculty=getFaculty(ner)
-    print(faculty)
-    """
+    # #Get Faculty of course
+    # faculty=getFaculty(ner)
+    # print(faculty)
+    #The email of student 
+    emails=getEmail_Student(ner)
+    print('\n'.join(emails))
 
     #tokens = nltk.pos_tag(nltk.word_tokenize(nl_query.lower()))
 
-"""
-#marks of Students in Courses
-for student in ner['Student']:
-    for course in ner['Course']:
-        rdfquery=''
-        rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
-        rdfquery=rdfquery + getID(course,"foo:courseName",var[1])
-        rdfquery=rdfquery + allEntities("Registration",var[2])
-        rdfquery=rdfquery + cond(var[2],"foo:courseid",var[1])
-        rdfquery=rdfquery + cond(var[2],"foo:studentid",var[0])
-        rdfquery=rdfquery + idtosolution(var[2],ner["attributes"][0],sol)
+
+# #marks of Students in Courses
+# for student in ner['Student']:
+#     for course in ner['Course']:
+#         rdfquery=''
+#         rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
+#         rdfquery=rdfquery + getID(course,"foo:courseName",var[1])
+#         rdfquery=rdfquery + allEntities("Registration",var[2])
+#         rdfquery=rdfquery + cond(var[2],"foo:courseid",var[1])
+#         rdfquery=rdfquery + cond(var[2],"foo:studentid",var[0])
+#         rdfquery=rdfquery + idtosolution(var[2],ner["attributes"][0],sol)
 
 
-        finalquery='select ?x where { ' + rdfquery + " }"
-        print("Query: ", student,' in the course ',course)
-        rows = g.query(finalquery)
-        if len(rows)<=0:
-            print('Marks not Available')
+#         finalquery='select ?x where { ' + rdfquery + " }"
+#         print("Query: ", student,' in the course ',course)
+#         rows = g.query(finalquery)
+#         if len(rows)<=0:
+#             print('Marks not Available')
 
-        for row in rows:
-            print(row.x)
-
-
-#All courses of Student
-
-for student in ner['Student']:
-    rdfquery=''
-    rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
-    rdfquery=rdfquery + allEntities("Course",var[1])
-    rdfquery=rdfquery + allEntities("Registration",var[2])
-    rdfquery=rdfquery + cond(var[2],"foo:courseid",var[1])
-    rdfquery=rdfquery + cond(var[2],"foo:studentid",var[0])
-    rdfquery=rdfquery + idtosolution(var[1],"foo:courseName",sol)
+#         for row in rows:
+#             print(row.x)
 
 
-    finalquery='select ?x where { ' + rdfquery + " }"
-    for row in g.query(finalquery):
-        print(row.x)
-"""
+# #All courses of Student
+
+# for student in ner['Student']:
+#     rdfquery=''
+#     rdfquery=rdfquery + getID(student,"foaf:givenName",var[0])
+#     rdfquery=rdfquery + allEntities("Course",var[1])
+#     rdfquery=rdfquery + allEntities("Registration",var[2])
+#     rdfquery=rdfquery + cond(var[2],"foo:courseid",var[1])
+#     rdfquery=rdfquery + cond(var[2],"foo:studentid",var[0])
+#     rdfquery=rdfquery + idtosolution(var[1],"foo:courseName",sol)
+
+
+#     finalquery='select ?x where { ' + rdfquery + " }"
+#     for row in g.query(finalquery):
+#         print(row.x)
+
 
 
 #

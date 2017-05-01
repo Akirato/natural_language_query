@@ -28,6 +28,18 @@ class TestSample(unittest.TestCase):
 		self.assertEqual(query_result1,result1)
 		self.assertEqual(query_result2,result2)
 
+	def test_getEmailofStudent(self):
+		query_ner1=getNer("what is anvesh's email id?") 
+		query_result1 = getEmail_Student(query_ner1)
+		result1=["Email of Anvesh : vijjinianvesh.rao@research.iiit.ac.in"]
+		query_ner2=getNer("Nurendra's and Anvesh's email id")
+		query_result2=getEmail_Student(query_ner2)
+		result2=['Email of Nurendra : nurendra.choudhary@research.iiit.ac.in', \
+		'Email of Anvesh : vijjinianvesh.rao@research.iiit.ac.in']
+		self.assertEqual(sorted(query_result1),sorted(result1))
+		self.assertEqual(sorted(query_result2),sorted(result2))
+
+
 if __name__ == '__main__':
 	suite = unittest.TestLoader().loadTestsFromTestCase(TestSample)
 	unittest.TextTestRunner(verbosity=2).run(suite)
