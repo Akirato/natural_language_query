@@ -142,7 +142,6 @@ if __name__=="__main__":
     emails=getEmail_Student(ner)
     print('\n'.join(emails))
     rollnos=getrollno_Student(ner)
-    print(rollnos)
     print('\n'.join(rollnos))
     fac_courses=get_coursesby(ner)
     for fac in fac_courses.keys():
