@@ -38,6 +38,19 @@ class TestSample(unittest.TestCase):
 		'Email of Anvesh : vijjinianvesh.rao@research.iiit.ac.in']
 		self.assertEqual(sorted(query_result1),sorted(result1))
 		self.assertEqual(sorted(query_result2),sorted(result2))
+		
+	def test_getcoursestaughtby(self):
+		query_ner1=getNer("What all courses did Manish teach?")
+		query_result1=get_coursesby(query_ner1)
+		result1={'Manish': {rdflib.term.Literal('Natural Language Processing'),\
+		rdflib.term.Literal('Natural Language Applications'), rdflib.term.Literal('Topics In Information Retrieval'),\
+		 rdflib.term.Literal('Operating Systems PG')}}
+		query_ner2=getNer("All courses manish is teaching")
+		query_result2=get_coursesby(query_ner2)
+		result2={'Manish': [rdflib.term.Literal('Topics In Information Retrieval'), rdflib.term.Literal('Natural Language Processing'),\
+		 rdflib.term.Literal('Natural Language Applications'), rdflib.term.Literal('Operating Systems PG')]}
+		self.assertEqual(set(query_result1['Manish']),set(result1['Manish']))
+		self.assertEqual(set(query_result2['Manish']),set(result2['Manish']))
 
 
 if __name__ == '__main__':
