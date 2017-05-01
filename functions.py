@@ -46,6 +46,7 @@ def getNer(query):
         query = nltk.word_tokenize(query.lower())
     a = {'Student':[],'Faculty':[],'Course':[],'attributes':[]}
     m = (faculties)
+    x=[1 for x in query if x in fac_words] #x to distinguish between student and faculty 
     f = m.union(students)
     k = f.union(courses)
     for i in k:
@@ -55,14 +56,20 @@ def getNer(query):
                     if i in dic[key]:
                         a['Course'].append(key.title())
             if i in students:
-                a['Student'].append(i.title())
+                if x==[]:
+                    a['Student'].append(i.title())
             if i in faculties:
-                a['Faculty'].append(i.title())
+                if x==[1]:
+                    a['Faculty'].append(i.title())
 
     for key in attributes:
         for m in attributes[key]:
             if m.split(":")[1] in query:
                 a['attributes'].append(m)
+            if m.split(":")[1] in dic.keys():
+                for word in dic[m.split(":")[1]]:
+                    if word in query:
+                        a['attributes'].append(m)
     return a
 def getFaculty(ner):       #Faculty of Course
     for course in ner['Course']:
@@ -79,6 +86,43 @@ def getFaculty(ner):       #Faculty of Course
             a.append(row.x+" "+row.y)
         a=",".join(a)
         return st+a
+def getEmail_Student(ner):  #Email of student
+    emails=[]
+    for student in ner['Student']:
+        if 'foo:email' in ner['attributes']:
+            rdfquery=''
+            rdfquery=rdfquery+getID(student,"foaf:givenName",var[0])
+            rdfquery=rdfquery+idtosolution(var[0],"foo:email",sol)
+            finalquery='select ?x where { ' + rdfquery + " }"
+            for row in g.query(finalquery):
+                emails.append("Email of "+student+" : "+row.x)
+    return emails
+def getrollno_Student(ner):
+    rollnos=[]
+    for student in ner['Student']:
+        if 'rdf:rollno' in ner['attributes']:
+            rdfquery=''
+            rdfquery=rdfquery+getID(student,"foaf:givenName",var[0])
+            rdfquery=rdfquery+idtosolution(var[0],"rdf:rollno",sol)
+            finalquery='select ?x where { ' + rdfquery + " }"
+            for row in g.query(finalquery):
+                rollnos.append("Roll Number of "+student+" : "+row.x)
+    return rollnos
+
+
+def get_coursesby(ner): #All courses taught by faculty
+    faculty_courses={}
+    for faculty in ner['Faculty']:
+        rdfquery=''
+        rdfquery=rdfquery+getID(faculty,"foaf:givenName",var[0])
+        rdfquery=rdfquery+idtosolution(var[1],"foo:faculty",var[0])
+        rdfquery=rdfquery+idtosolution(var[1],"foo:courseName",sol)
+        finalquery='select ?x ?y where { ' + rdfquery + " }"
+        courses=[]
+        for row in g.query(finalquery):
+            courses.append(row.x)
+        faculty_courses[faculty]=courses
+    return faculty_courses
 
 if __name__=="__main__":
     nl_query = input("Enter the query: ")
@@ -91,11 +135,18 @@ if __name__=="__main__":
             for key in attributes:
                 if i in attributes[key]:
                     functions = attributes[key][:]
-    """
-    #Get Faculty of course
-    faculty=getFaculty(ner)
-    print(faculty)
-    """
+    # #Get Faculty of course
+    # faculty=getFaculty(ner)
+    # print(faculty)
+    #The email of student 
+    emails=getEmail_Student(ner)
+    print('\n'.join(emails))
+    rollnos=getrollno_Student(ner)
+    print('\n'.join(rollnos))
+    fac_courses=get_coursesby(ner)
+    for fac in fac_courses.keys():
+        print("Courses taught by "+fac+'\n'+' , '.join(fac_courses[fac]))
+
 
     #tokens = nltk.pos_tag(nltk.word_tokenize(nl_query.lower()))
 
@@ -138,7 +189,6 @@ for student in ner['Student']:
     for row in g.query(finalquery):
         print(row.x)
 """
-
 
 #
 #
