@@ -52,6 +52,16 @@ class TestSample(unittest.TestCase):
 		self.assertEqual(set(query_result1['Manish']),set(result1['Manish']))
 		self.assertEqual(set(query_result2['Manish']),set(result2['Manish']))
 
+	def test_getrollofStudent(self):
+		query_ner1=getNer("Get me anvesh's and nurendra's roll numbers")
+		query_result1=getrollno_Student(query_ner1)
+		result1=['Roll Number of Nurendra : 201325186', 'Roll Number of Anvesh : 201325059']
+		query_ner2=getNer("What is Nurendra's roll number?")
+		query_result2=getrollno_Student(query_ner2)
+		result2=['Roll Number of Nurendra : 201325186']
+		self.assertEqual(sorted(query_result1),sorted(result1))
+		self.assertEqual(sorted(query_result2),sorted(result2))
+
 
 if __name__ == '__main__':
 	suite = unittest.TestLoader().loadTestsFromTestCase(TestSample)

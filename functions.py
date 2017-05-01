@@ -66,6 +66,10 @@ def getNer(query):
         for m in attributes[key]:
             if m.split(":")[1] in query:
                 a['attributes'].append(m)
+            if m.split(":")[1] in dic.keys():
+                for word in dic[m.split(":")[1]]:
+                    if word in query:
+                        a['attributes'].append(m)
     return a
 def getFaculty(ner):       #Faculty of Course
     for course in ner['Course']:
@@ -93,6 +97,18 @@ def getEmail_Student(ner):  #Email of student
             for row in g.query(finalquery):
                 emails.append("Email of "+student+" : "+row.x)
     return emails
+def getrollno_Student(ner):
+    rollnos=[]
+    for student in ner['Student']:
+        if 'rdf:rollno' in ner['attributes']:
+            rdfquery=''
+            rdfquery=rdfquery+getID(student,"foaf:givenName",var[0])
+            rdfquery=rdfquery+idtosolution(var[0],"rdf:rollno",sol)
+            finalquery='select ?x where { ' + rdfquery + " }"
+            for row in g.query(finalquery):
+                rollnos.append("Roll Number of "+student+" : "+row.x)
+    return rollnos
+
 
 def get_coursesby(ner): #All courses taught by faculty
     faculty_courses={}
@@ -125,6 +141,9 @@ if __name__=="__main__":
     #The email of student 
     emails=getEmail_Student(ner)
     print('\n'.join(emails))
+    rollnos=getrollno_Student(ner)
+    print(rollnos)
+    print('\n'.join(rollnos))
     fac_courses=get_coursesby(ner)
     for fac in fac_courses.keys():
         print("Courses taught by "+fac+'\n'+' , '.join(fac_courses[fac]))
